@@ -1,0 +1,13 @@
+.header-button {
+    color: #fff;
+    padding: 12px 25px;
+    background-color: #453f4f;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.header-button:hover {
+    background-color: #25252f;
+    box-shadow: #25252f;
+}

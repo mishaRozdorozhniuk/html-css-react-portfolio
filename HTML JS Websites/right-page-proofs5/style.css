@@ -1,0 +1,129 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+body {
+	background-color: #F0F0F0;
+}
+.faster-convention {
+	background-color: #fff;	
+	display: grid;
+	height: 300px;
+	width: 290px;
+	box-shadow: 0px 7px 18px -6px rgba(0,0,0,0.22);
+}
+.faster-item {
+	list-style: none;
+	line-height: 2.5;
+	font-family: 'Muli', sans-serif;
+	font-weight: 600;
+	color: #414243;
+	font-size: 13px;
+}
+.left-list {
+	float: left;
+}
+.right-list {
+	float: right;
+}
+.wrapper {
+	display: grid;
+	justify-content: end;
+}
+.link-wrapper {
+	text-align: center;
+
+}
+.faster-link {
+	padding: 10px 60px 10px 61px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 200;
+	color: #fff;
+	box-shadow: 0px 7px 18px -6px rgb(255,115,15);
+	border-radius: 4px;
+	background: linear-gradient(135deg, rgba(255,175,75,1) 0%, rgba(255,113,45,1) 41%, rgba(255,39,10,1) 90%);
+}
+.left-list {
+	line-height: 1.8;
+}
+.right-list {
+	line-height: 1.8;
+	margin-top: 51px;
+	margin-right: 10px;
+}
+.left-part-title {
+	color: #F6F6F6;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 6px;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+}
+.left-part-item {
+	list-style: none;
+	font-size: 12px;
+	font-family: 'Muli', sans-serif;
+	color: #F6F6F6;
+}
+.right-part-item  {
+	list-style: none;
+	font-size: 12px;
+	font-family: 'Muli', sans-serif;
+	color: #F6F6F6;
+}
+.quick-links {
+	background-color: red;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 180px;
+	background: rgb(255,115,15);
+	background: linear-gradient(135deg, rgba(255,175,75,1) 0%, rgba(255,113,45,1) 41%, rgba(255,39,10,1) 90%);
+	width: 300px;
+	box-shadow: 0px 7px 18px -6px rgb(255,115,15);
+}
+.developer {
+	background-color: #fff;
+	display: grid;
+	align-items: start;
+	height: 100px;
+	margin-left: 20px;
+	width: 300px;
+	box-shadow: 0px 7px 18px -6px rgba(0,0,0,0.22);
+}
+.content {
+	display: grid;
+	grid-template-columns: 290px 1fr;
+}
+.faster-title {
+	font-size: 18px;
+	font-weight: 800;
+	font-family: 'Muli', sans-serif;
+	text-align: center;
+	align-items: center;
+	display: grid;
+}
+.developer-title {
+	display: grid;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Muli', sans-serif;
+	font-weight: 800;
+}
+.orange-text {
+	color: #FF540B;
+	font-family: 'Muli', sans-serif;
+	font-weight: normal;
+}
+.developer-text {
+	font-size: 12px;
+	text-align: center;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

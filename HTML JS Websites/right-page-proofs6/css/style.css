@@ -1,0 +1,552 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body-pg {
+    background-color: #f5f7f8;
+}
+
+.facebook-header {
+    display: flex;
+    background-color: #4d636f;
+    position: fixed;
+    width: 100%;
+}
+
+.fa-home {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+}
+
+.fas {
+    color: #fff;
+}
+
+.fas2 {
+    margin-left: 55px;
+    font-size: 22px;
+}
+
+.fa-globe-americas {
+    margin-left: 28px;
+}
+
+.header-logo {
+    padding: 18px 27px 18px 15px;
+    background-color: #3a4b53;
+}
+
+.header__list {
+    display: flex;
+}
+
+.header-logo:hover {
+    background-color: silver;
+}
+
+.header-logo:hover .fa-home {
+    color: #000;
+}
+
+.header-logo:hover .logo-text {
+    color: #000;
+}
+
+.header-list__item {
+    list-style: none;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.last-item::after {
+    content: "3";
+    padding-left: 11px;
+    padding-top: 2px;
+    width: 32px;
+    height: 22px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    position: absolute;
+    left: 55px;
+    bottom: 25px;
+    color: white;
+}
+
+.last-item {
+    position: relative;
+}
+
+.fas2 {
+    padding: 20px 32px 20px 32px;
+    margin: 0 auto;
+}
+
+.fas2:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.logo-text {
+    display: inline-block;
+    color: #fff;
+    margin: 0 0 0 14px;
+    font-weight: normal;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-section-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 14px;
+    margin-left: 20px;
+    padding-top: 90px;
+}
+
+.my-profile {
+    background-color: red;
+    width: 294px;
+    grid-column: span 1;
+}
+
+.info-part {
+    background-color: teal;
+    width: 688px;
+    max-height: 170px;
+    grid-column: span 1;
+}
+
+.upcoming-events {
+    background-color: purple;
+    width: 228px;
+    grid-column: span 1;
+}
+
+.bg-cont {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 14px -5px rgba(0, 0, 0, 0.44);
+}
+
+/*my-profile*/
+
+.profile-title {
+    font-weight: 100;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.my-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.masterpiece {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+}
+
+.prof-icon {
+    color: #4d636f;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 20px 0 15px;
+}
+
+.icon-inner {
+    text-align: left;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.content-info {
+    margin: 2px 0 15px 0;
+}
+
+.gorizontal-line::before {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 0.1px;
+    background-color: gray;
+    margin-left: 21px;
+    opacity: 0.3;
+    margin-bottom: 23px;
+}
+
+/*info-part*/
+
+.info-title {
+    font-size: 16px;
+    color: grey;
+    font-weight: normal;
+    margin: 20px 0 20px 15px;
+}
+
+.info-form {
+    width: 653px;
+    height: 37px;
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+input[type="search"]::placeholder {
+    color: black;
+    padding-left: 10px;
+}
+
+.info-link {
+    background-color: #607d8b;
+    color: #fff;
+    padding: 10px 20px 10px 10px;
+    margin-left: 20px;
+}
+
+.event-info:hover {
+    background-color: grey;
+}
+
+.link-p {
+    margin: 0 8px 0 0;
+    font-size: 14px;
+}
+
+/*upcoming-events*/
+.event-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*WOW it's work!!!*/
+.event-inner * + * {
+    margin-top: 15px;
+}
+
+/*WOW it's work!!!*/
+.event-title {
+    font-size: 16px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.event-photo {
+
+}
+
+.img-desc {
+    font-weight: bold;
+}
+
+.event-info {
+    padding: 10px 85px 10px 80px;
+    background-color: lightgrey;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #000;
+}
+
+.main-section-content {
+    grid-column: span 1;
+}
+
+.list-group-item {
+    padding: 0.5em;
+    font-weight: normal;
+    color: #fff;
+}
+
+.list-header {
+    background-color: #7d97a5;
+}
+
+.list-header:hover {
+    background-color: lightgrey;
+    color: #000;
+}
+
+.list-info-content {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.accordeon-hid {
+    display: none;
+}
+
+.load-icon {
+    margin: 0 8px 0 8px;
+}
+
+.info-more {
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.load-nature-photo {
+    margin: 0;
+}
+
+.load-photo-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.recommend-people {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.right-grid-cont {
+    grid-column: span 1 / 4;
+    max-width: 227px;
+}
+
+.recommend-title {
+    padding: 15px 0 15px 0;
+}
+
+.recommend-name {
+    margin-top: 5px;
+}
+
+.recommend-link-wrapper {
+    padding: 25px;
+    display: inline-flex;
+}
+
+.true-link {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 35px 8px 35px;
+}
+
+.true-link:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.false-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f44336;
+    padding: 8px 35px 8px 35px;
+}
+
+.false-link:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.post-section {
+    grid-column: span 1 / 3;
+}
+
+.post-section {
+    margin-top: 38px;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;;
+    justify-content: space-between;
+    padding: 20px 0 0 20px;
+    margin-bottom: 30px;
+}
+
+.post-text::before {
+    content: "";
+    width: 650px;
+    height: 0.1px;
+    background-color: gray;
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 20px;
+}
+
+.post-text2 {
+    margin-left: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.post-text {
+    margin-left: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.post-inner {
+    display: inline-flex;
+}
+
+.time-posting {
+    margin-right: 10px;
+    color: lightgrey;
+    margin-bottom: 25px;
+}
+
+.post-author-name {
+    font-size: 20px;
+    margin: 20px 0 0 15px;
+}
+
+.post-author-photo {
+    border-radius: 50%;
+}
+
+.post-nature-photo {
+    margin-right: 11px;
+    margin-left: 11px;
+}
+
+.post-img-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-link-wrapper {
+    display: inline-block;
+    padding-bottom: 20px;
+    margin: 10px 0 0 22px;
+}
+
+.just-like {
+    background-color: #57707d;
+    color: #fff;
+    padding: 8px 22px 8px 22px;
+    text-decoration: none;
+}
+
+.comment {
+    background-color: #57707d;
+    color: #fff;
+    padding: 8px 22px 8px 22px;
+    text-decoration: none;
+}
+
+.post-icon {
+    margin-right: 5px;
+}
+
+.interests-section {
+    margin-top: 15px;
+}
+
+.interests-title {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 15px 0 0 15px;
+}
+
+.interests-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post-link {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+.first {
+    background-color: #3a4b53;
+    padding: 2px;
+}
+
+.second {
+    background-color: #607d8b;
+    padding: 2px;
+}
+
+.secod-line {
+    margin: 4px 0 4px 0;
+}
+
+.thirt {
+    background-color: #becbd2;
+    padding: 2px;
+}
+
+.interest-link-wrapper {
+    margin: 15px 0 10px 15px;
+}
+
+.advertising {
+    background-color: #dfe5e8;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.adv-hi {
+    font-weight: bold;
+    margin: 20px 0 10px 20px;
+}
+
+.adv-text {
+    margin: 0 5px 10px 20px;
+}
+
+.close-adv {
+    width: 40px;
+    height: 40px;
+    background-color: #becbd2;
+    float: right;
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.del {
+    display: none;
+}
+
+.second-post {
+    margin-top: 15px;
+}
+
+.second-post-top {
+    padding-top: 10px;
+}
+
+.third-post {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.third-post-img {
+    padding-bottom: 15px;
+}
+
+.for-what-this-block {
+    margin-top: 15px;
+}
+
+.fa-bug {
+    display: flex;
+    margin-left: 40px;
+    color: #000;
+    font-size: 36px;
+    padding: 59px;
+}

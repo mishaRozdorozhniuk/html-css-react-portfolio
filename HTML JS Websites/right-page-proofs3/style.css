@@ -1,0 +1,306 @@
+* {
+	padding: 0;
+	margin: 0;
+	/*box-sizing: border-box;*/
+}
+.bg {
+	height: 790px;
+	background: url("img/travelers-mountains.jpg") no-repeat;
+	background-size: cover;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header-link {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 34px;
+}
+.header-ikon {
+	height: 17px;
+}
+.header-ikon-left {
+	margin: 40px 870px 0 60px;
+}
+.main-title {
+	color: #fff;
+	text-align: center;
+	font-size: 56px;
+	font-weight: bold;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 250px;
+}
+.main-subtitle {
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: normal;
+	margin-top: 11px;
+}
+.arrow-position {
+	text-align: center;
+	margin-top: 270px;
+}
+.checkboxx {
+	text-decoration: none;
+	margin: 50px 0;
+	margin-left: 117px;
+}
+	.checkbox {
+		margin-left: 23px;
+	}
+	.under-block {
+		background-color: #EDEDED
+	}
+.under-link {
+	text-decoration: none;
+	padding: 12px 29px;
+	background-color: #AA9B77;
+	color: #fff;
+	border-radius: 3px;
+	font-family: 'Quicksand', sans-serif;
+	float: right;
+	margin-top: 35px;
+	margin-right: 40px;
+}
+.main-content {
+	height: 900px;
+	text-align: center;
+}
+.line-top {
+	margin: 65px 137px 0 15px;
+	float: right;
+	width: 830px;
+	border: 1px solid #CCCCCC;
+}
+.line-name {
+	margin: 57px 0 0 155px;
+	display: inline-block;
+	font-size: 13px;
+	font-family: 'Quicksand', sans-serif;
+}
+.main-content-item {
+	width: 230px;
+	height: 280px;
+	background-color: #EDEDED;
+	margin: 60px 40px 0 40px;
+	display: inline-block;
+	vertical-align: top;
+}
+.main-content-item:hover {
+	outline: 4px solid #AA9B77;
+	outline-offset: -4px;
+}
+.content-photo1 {
+	height: 160px;
+	margin-top: 60px;
+	padding-right: 44px;
+}
+.content-title {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	margin: 17px 0 0 16px;
+	display: inline-block;
+	vertical-align: top;
+}
+.content-subtitle {
+	font-size: 15px;
+	color: #AA9B77;
+	margin: 15px 0px 10px 25px;
+	font-family: 'Quicksand', sans-serif;
+	float: left;
+}
+.content-photo2 {
+	height: 172px;
+	padding-top: 53px;
+	padding-right: 60px;
+}
+.content-title2 {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	margin: 17px 15px 0 16px;
+	display: inline-block;
+	vertical-align: top;
+}
+.content-subtitle2 {
+	font-size: 15px;
+	color: #AA9B77;
+	margin: 10px 0px 26px 15px;
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+}
+.content-photo3 {
+	height: 150px;
+	margin-top: 58px;
+	margin-right: 62px;
+}
+.content-subtitle3 {
+	font-size: 15px;
+	color: #AA9B77;
+	margin: 25px 138px 9px 28px;
+	font-family: 'Quicksand', sans-serif;
+}
+.archer-size {
+	vertical-align: top;
+	margin-top: 22px;
+	margin-left: 4px;
+	display: inline-block;
+	height: 7px;
+}
+.t-shirt-cost {
+	height: 15px;
+	margin-top: 21px;
+	margin-right: 22px;
+	float: right;
+}
+.thousers-cost {
+	height: 15px;
+	margin-top: 14px;
+	margin-right: 19px;
+	float: right;
+}
+.backpack-cost {
+	height: 15px;
+	margin-top: 26px;
+	margin-right: 21px;
+	float: right;
+}
+.line-under {
+	margin: 60px 0 0 170px;
+	float: left;
+	width: 830px;
+	border: 1px solid #CCCCCC;
+}
+.under-line-name {
+	margin: 48px 75px 0 0px;
+	font-size: 13px;
+	font-family: 'Quicksand', sans-serif;
+}
+.girl {
+	height: 155px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-left: 20px;
+	vertical-align: top;
+	margin-right: 30px;
+}
+.content-subtitle-girl {
+	font-size: 15px;
+	color: #AA9B77;
+	margin: 18px 0px 0px 25px;
+	font-family: 'Quicksand', sans-serif;
+	float: left;
+}
+.content-title-girl {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+	margin: 17px 0px 0 16px;
+	vertical-align: top;
+	float: left;
+}
+.archer-size-girl {
+	margin-top: 22px;
+	margin-right: 165px;
+	height: 7px;
+}
+.content-photo2-girl {
+	height: 89px;
+	margin-top: 53px;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.Livello-item {
+	height: 15px;
+	margin-top: 60px;
+	margin-right: 22px;
+	float: right;
+}
+.content-subtitle2-girl {
+	font-size: 15px;
+	color: #AA9B77;
+	margin: 55px 0px 26px 15px;
+	float: left;
+	font-family: 'Quicksand', sans-serif;
+}
+.content-photo3-girl {
+	height: 135px;
+	margin-top: 70px;
+	margin-right: 58px;
+}
+.content-subtitle3-girl {
+	font-size: 15px;
+	color: #AA9B77;
+	margin: 25px 138px 9px 28px;
+	font-family: 'Quicksand', sans-serif;
+}
+.about-us-section {
+	height: 340px;
+	background-color: #AA9B77;
+	width: 100%;
+}
+.about-subtitle {
+	font-size: 21px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	color: #837659;
+	padding-top: 60px;
+	margin-bottom: 20px;
+}
+.about-us-section > p { /* Воу что этот молодой человек вытворяет с селекторами  */
+	text-align: center;
+	color: #424242;
+	font-family: 'Quicksand', sans-serif;
+}
+.under-block-section {
+	background-color: #535253;
+	height: 65px;
+	width: 100%;
+}
+.twitter {
+	margin: 22px 0 9px 55px;
+}
+.under-block-text {
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	float: right;
+	margin-top: 24px;
+	margin-right: 820px;
+}
+.footer {
+	background-color: #424242;
+	height: 260px;
+	font-family: 'Quicksand', sans-serif;
+}
+.trekking {
+	color: #fff;
+	font-size: 20px;
+	padding-top: 60px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.trekking-subtitle {
+	font-size: 11px;
+	color: #EDEDED;
+	line-height: 1.8;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.right-part {
+	float: right;
+	color: #fff;
+	text-transform: uppercase;
+	margin-right: 50px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+.author {
+	font-size: 11px;
+	margin-top: 10px;
+}

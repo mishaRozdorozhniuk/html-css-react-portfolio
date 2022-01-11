@@ -1,0 +1,14 @@
+.find-button {
+    text-transform: uppercase;
+    border: none;
+    background-color: #f55858;
+    padding: 0.9rem 1.4rem;
+    border-radius: 2em;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    transition: background-color .6s linear;
+    color: #fff;
+}
+.find-button:hover {
+    background-color: #0088e8;
+}

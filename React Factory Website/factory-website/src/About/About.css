@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1120px;
+}
+.about-us {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.about-us-info-title {
+    color: #000;
+    line-height: 2rem;
+}
+.about-us-info-subtitle {
+    color: #313131;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.about-us-info {
+    margin-left: 2em;
+}
+.what-we-can-item {
+    text-align: left;
+}
+.what-we-can-title {
+    font-size: 1.2rem;
+    color: #505050;
+    padding-left: 1em;
+}
+.what-we-can-subtitle {
+    color: #505050;
+    line-height: 2em;
+}
+.service-icon {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 10px;
+    margin: 10px 25px 35px -10px;
+    border-radius: 50%;
+    background-color: rgba(104, 194, 255, 0.42);
+}
+.what-we-can-item {
+    margin-top: 2em;
+}

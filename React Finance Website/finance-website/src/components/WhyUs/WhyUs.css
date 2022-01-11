@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.why-us-wrapper {
+    background-color: #383340;
+    height: 85vh;
+    width: 100%;
+    color: #fff;
+}
+.why-us-title {
+    font-weight: normal;
+    font-size: 40px;
+    padding-top: 25px;
+}
+.why-us-icon-title {
+    font-size: 16px;
+    font-weight: normal;
+}
+.why-us-icon-description {
+    width: 220px;
+    font-size: 14px;
+}
+.why-us-icon-item {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    justify-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 55px;
+    padding-top: 50px;
+}
+.item {
+    width: 200px;
+}
+.wrapper {
+}

@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing-plan {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.pricing-bg {
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    width: 100vw;
+    /*height: 100vh;*/
+    position: absolute;
+    left: 0;
+    top: 2600px;
+    z-index: -5;
+}
+
+.pricing-plan-text {
+    text-align: left;
+    float: left;
+    margin-top: 15%;
+    margin-right: 20px;
+}
+
+.pricing-plan-title {
+    color: #545459;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.pricing-plan-subtitle {
+    color: #37373a;
+    font-size: 13px;
+    line-height: 0.7rem;
+    margin-bottom: 40px;
+    word-spacing: 1px;
+}
+
+.pricing-plan-call-btn {
+    background: rgb(42, 0, 255);
+    background: linear-gradient(90deg,
+    rgba(42, 0, 255, 1) 0%,
+    rgba(56, 1, 255, 1) 27%,
+    rgba(86, 4, 255, 1) 46%,
+    rgba(98, 5, 255, 1) 75%,
+    rgba(101, 5, 255, 1) 100%
+    );
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 20px;
+}
+
+.business-plan-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.business-plan-block.second {
+    margin: 50px 0 0 30px;
+    border-bottom: 3px solid #39393a
+}
+
+.business-plan-block {
+    height: 560px;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding-left: 20px;
+    border-bottom: 3px solid #3c46ff;
+    background-color: #fff;
+}
+
+.business-plan-block-title {
+    font-size: 22px;
+    color: #3d3d41;
+    font-weight: normal;
+    padding-top: 50px;
+    margin-bottom: 0;
+}
+
+.business-price {
+    font-size: 50px;
+    color: #602FDA;
+    margin-top: 0;
+}
+
+.check {
+    background-color: rgba(171, 132, 255, 0.43);
+    padding: 4px;
+    border-radius: 50%;
+    width: 20px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.business-plan-list {
+    padding: 0;
+    line-height: 2.5rem;
+}
+
+.business-list-item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.business-plan-wrapper button {
+    background-color: #292929;
+    border-radius: 3px;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    margin-top: 15px;
+}
