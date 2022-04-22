@@ -1,0 +1,300 @@
+.criminal-low {
+    max-width: 866px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    position: relative;
+}
+
+.criminal-low-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.criminal-low-title {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.criminal-low-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.criminal-low-desc {
+    margin: 73px 20px 64px 20px;
+}
+
+.criminal-low-img-wr {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.criminal-low-desc-text {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.criminal-low-desc-subtitle {
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.criminal-low-desc-text .b-blue-text,
+.criminal-low-desc-subtitle .b-blue-text {
+    text-decoration: underline;
+    color: rgb(1, 217, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.video_wrapper {
+    width: 747px;
+    margin: 0 auto;
+    height: 274px;
+    position: relative;
+}
+
+.video_wrapper_full {
+    padding-top: 308px;
+}
+
+.videoIframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.videoPoster:hover::before {
+    cursor: pointer;
+    box-shadow: -2px -2px 15px rgba(255, 0, 168, 0.5), 2px 2px 15px rgba(255, 0, 168, 0.5), 2px -2px 15px rgba(255, 0, 168, 0.5), -2px 2px 15px rgba(255, 0, 168, 0.5);
+}
+
+.videoPoster:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80px;
+    background: rgba(0, 10, 23, 0.49);
+    border: 4px solid #FFFFFF;
+    box-shadow: -2px -2px 15px rgba(255, 0, 168, 0.5), 2px 2px 15px rgba(255, 0, 168, 0.5), 2px -2px 15px rgba(255, 0, 168, 0.5), -2px 2px 15px rgba(255, 0, 168, 0.5);
+    height: 80px;
+    margin: -40px 0 0 -40px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+}
+
+.videoPoster:after {
+    filter: drop-shadow(0 0mm 3mm rgba(255, 22, 148, 55.5));
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin: -20px 0 0 -10px;
+    border-left: 29px solid #fff;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+}
+
+.videoPoster:hover:before {
+    background: rgba(255, 0, 168, 0.37);
+    box-shadow: -2px -2px 15px rgba(255, 0, 168, 0.5), 2px 2px 15px rgba(255, 0, 168, 0.5), 2px -2px 15px rgba(255, 0, 168, 0.5), -2px 2px 15px rgba(255, 0, 168, 0.5);
+}
+
+.videoPoster:active:after {
+    border-left: 29px solid #ffffff8a;
+}
+
+.criminal-low-desc ol {
+    line-height: 2.4;
+}
+
+.videoWrapperActive .videoPoster {
+    opacity: 0;
+    height: 0;
+    -webkit-transition-delay: 0s, 800ms;
+    -moz-transition-delay: 0s, 800ms;
+    transition-delay: 0s, 800ms;
+}
+
+.videoPoster {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 750px;
+    height: 423px;
+    background-image: url('../img/criminal-low/criminal-low-banner.webp');
+    background-size: 100%;
+    border: none;
+    text-indent: -999em;
+    overflow: hidden;
+    opacity: 1;
+    -webkit-transition-delay: 0s, 0s;
+    -moz-transition-delay: 0s, 0s;
+    transition-delay: 0s, 0s;
+}
+
+.criminal-low-blue,
+.criminal-low-pink {
+    background: radial-gradient(58.98% 58.98% at 49.94% 56.41%, rgba(0, 209, 255, 0.6) 14.59%, rgba(2, 1, 27, 0.6) 100%);
+    filter: blur(113px);
+    transform: rotate(77.17deg);
+    width: 500px;
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+    margin-left: 841px;
+    margin-top: 147px;
+}
+
+.criminal-low-pink {
+    margin-top: -850px;
+    background: radial-gradient(58.98% 58.98% at 49.94% 56.41%, rgba(255, 0, 229, 0.42) 14.59%, rgba(2, 1, 27, 0.6) 100%);
+    margin-left: -500px;
+    z-index: -1;
+}
+
+.low-desc-sec {
+    margin-top: 190px;
+}
+
+.criminal-low-desc-first p {
+    text-decoration: underline;
+}
+
+.criminal-low-desc-first h2 {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .criminal-low-title {
+        font-size: 30px;
+    }
+    .criminal-low-desc-text {
+        font-size: 15px;
+    }
+    .criminal-low-desc {
+        margin: 73px 80px 64px 80px;
+    }
+    .criminal-low-desc-subtitle {
+        font-size: 16px;
+    }
+    .videoPoster {
+        width: 648px;
+        height: 377px;
+    }
+    .video_wrapper {
+        width: 641px;
+    }
+    .criminal-low-desc-text .sm-blue-text {
+        color: rgb(1, 217, 255);
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .low-desc-sec {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 660px) {
+    .videoPoster {
+        width: 529px;
+        height: 308px;
+    }
+    .video_wrapper {
+        width: 524px;
+    }
+    .criminal-low-desc {
+        margin: 43px 39px 64px 51px;
+    }
+    .low-desc-sec {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 561px) {
+    .videoPoster {
+        width: 413px;
+        height: 240px;
+    }
+    .video_wrapper {
+        width: 414px;
+    }
+    .videoIframe {
+        height: 76%;
+    }
+    .video_wrapper {
+        height: 314px;
+    }
+    .low-desc-sec {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 508px) {
+    .videoPoster {
+        width: 347px;
+        height: 201px;
+    }
+    .video_wrapper {
+        width: 347px;
+    }
+    .criminal-low-desc {
+        margin: 35px 17px 64px 20px;
+    }
+    .criminal-low-img-wr {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .criminal-low-title {
+        font-size: 22px;
+        max-width: 209px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .criminal-low-desc-text {
+        font-size: 14px;
+        text-decoration: none;
+    }
+    .criminal-low-img {
+        height: 311px;
+        object-fit: cover;
+    }
+    li.criminal-low-desc-text {
+        text-decoration: none;
+    }
+    .low-desc-sec {
+        margin-top: -40px;
+    }
+    .criminal-low {
+        padding-top: 145px;
+    }
+    .video_wrapper.video_wrapper_full.js-videoWrapper {
+        height: 261px;
+        padding: 0;
+    }
+}
+
+.top-remove-margin {
+    margin-top: 60px;
+}
+
+iframe {
+    background-color: #000;
+}

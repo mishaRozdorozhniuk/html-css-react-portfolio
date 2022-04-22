@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <title>Only-student</title>
+    <meta name="description" content="Наша цель, успешный студент и заветное «сессия закрыта». Все материалы проверены экспертами, что позволит защитить курсовую работу, решить задачу, написать магистерскую диссертацию с учетом требований.">
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/styles/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/preload.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/partners.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <div id="loading">
+        <div class="container-preload">
+            <div class="dash uno"></div>
+            <div class="dash dos"></div>
+            <span class="preload-articles-elipce"></span>
+            <div class="dash tres"></div>
+            <div class="dash cuatro"></div>
+            <span class="preload-articles-elipce-pink"></span>
+        </div>
+    </div>
+    <div id="__nuxt">
+        <div id="__layout">
+            <div>
+                <header class="header">
+                    <div class="header__wrapper">
+                        <div class="header__wrapper_logo">
+                            <a href="index.html" class="header_logo-link">
+                                <picture>
+                                    <source srcset="assets/img/header/logo.webp" type="image/webp+xml">
+                                    <img src="assets/img/header/logo.png" alt="logo" loading="lazy">
+                                </picture>
+                                <picture class="header-logo-name">
+                                    <source srcset="assets/img/header/logoname.svg" type="image/svg+xml">
+                                    <img src="assets/img/header/logoname.png" alt="logo" loading="lazy">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="header__consultation">
+                            <button class="get-consultation" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <div>Получить консультацию</div>
+                                <div class="circle">
+                                    <picture>
+                                        <source srcset="assets/img/header/arrow.webp" type="image/webp+xml">
+                                        <img src="assets/img/header/arrow.png" alt="arrow" loading="lazy">
+                                    </picture>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="header__navigation">
+                            <div class="header__languages">
+                                <div class="header__dropdown" style="z-index:1000000000">
+                                    <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-secondary dropdown-toggle">
+                                        <picture>
+                                            <source srcset="assets/img/header/ru.webp" type="image/webp+xml">
+                                            <img src="assets/img/header/ru.png" alt="ru">
+                                        </picture>
+                                        ru
+                                    </button>
+                                    <ul style="padding: 0;" aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/ua.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/ua.png" alt="ua">
+                                                </picture>
+                                                ua
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/en.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/en.png" alt="en">
+                                                </picture>
+                                                en
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/de.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/de.png" alt="pl">
+                                                </picture>
+                                                pl
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__menu">
+
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: none;">
+                                        Меню
+                                    <div class="lines"></div>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="empty-space"></div>
+                <footer class="footer ">
+                    <div class="footer__wrapper row ">
+                        <div class="footer__payment col-md-4 ">
+                            <h2 class="footer__payment--title title ">Принимаем к оплате</h2>
+                            <div class="footer-left ">
+                                <div class="payments ">
+                                    <section class="payments-item-wr ">
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/visa.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/visa.png " alt="visa " loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/privat.png " type="image/webp+xml ">
+                                                <img src="assets/img/footer/privat.png " alt="privat" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/mastercard.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/mastercard.png " alt="mastercard" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item lg-footer-bank ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/world.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/world.png " alt="world" loading="lazy">
+                                            </picture>
+                                            <picture>
+                                                <source srcset="assets/img/footer/liqpay.webp " type="image/webp+xml ">
+                                                <img class="liqpay " src="assets/img/footer/liqpay.png " alt="liqpay" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture class="sm-footer-bank ">
+                                                <source srcset="assets/img/footer/world.webp " type="image/webp+xml ">
+                                                <img class="world-b " src="assets/img/footer/world.png " alt="world " loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+
+                                            <picture class="sm-footer-bank ">
+                                                <source srcset="assets/img/footer/liqpay.webp " type="image/webp+xml ">
+                                                <img class="liqpay " src="assets/img/footer/liqpay.png " alt="liqpay " loading="lazy">
+                                            </picture>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields col-md-8">
+                            <div class="fields-inner">
+                                <section class="footer__about col-md-6">
+                                    <h2 class="footer__about--title title">О Нас</h2>
+                                    <nav class="footer__about--body ">
+                                        <ul class="links">
+                                            <li><a href="# ">Статьи</a></li>
+                                            <li><a href="# ">Отзывы</a></li>
+                                            <li><a href="# ">Услуги</a></li>
+                                        </ul>
+                                        <ul class="other-links">
+                                            <li><a href="# ">Помощь с репетиторами</a></li>
+                                            <li><a href="# ">Помощь с учебными работами</a></li>
+                                            <li><a href="# ">Политика конфиденциальности</a></li>
+                                            <li><a href="# ">Договор публичной оферты</a></li>
+                                        </ul>
+                                    </nav>
+                                </section>
+                                <div class="footer__connect col-md-6">
+                                    <div class="footer__connect--title title">
+                                        <section class="feedback-link">
+                                            <span class="text">Связаться с нами</span>
+                                            <div class="popup">
+                                                <a href="#" class="feedback-social-link">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/burger_tg.svg" type="image/svg+xml">
+                                                        <img src="assets/img/footer/Vector (7).png" alt="enter icon">
+                                                    </picture>
+                                                    <span class="text ">Консультация в Telegram</span>
+                                                </a>
+                                                <a href="#" class="feedback-social-link ">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/burger-vb.svg" alt="viber" type="image/svg+xml ">
+                                                        <img src="assets/img/footer/vibersec.png" alt="enter icon ">
+                                                    </picture>
+                                                    <span class="text ">Консультация в Viber</span>
+                                                </a>
+                                                <a href="#" class="feedback-social-link">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/icon.png" alt="chat" type="image/svg+xml">
+                                                        <img src="assets/img/footer/icon.svg" alt="enter icon">
+                                                    </picture>
+                                                    <span class="text">Online-ЧАТ</span>
+                                                </a>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="footer__connect--body">
+                                        <ul class="links">
+                                            <li class="d-flex">
+                                                <a href="mailto:support@only-student.com" style="font-weight: 300" class="mail-link p-0">support@only-student.com</a>
+                                                <picture>
+                                                    <source srcset="assets/img/footer/mail.svg" type="image/svg+xml">
+                                                    <img src="assets/img/footer/mail.png" alt="mail">
+                                                </picture>
+                                            </li>
+                                            <li><a href="# " class="footer-partner ">Исполнителям и Партнерам</a></li>
+                                        </ul>
+                                        <button>
+                                        <div>Регистрация</div>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyrighting row ">
+                        © 2017-2022 «only-student». Все права защищены.
+                    </div>
+                </footer>
+                <div id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade">
+                    <div class="modal-dialog" style="background-color: black; height: 100%;">
+                        <div class="modal-content" style="border: none;">
+                            <div class="side-panel" style="background-color: black;">
+                                <div class="side-panel-inn">
+                                    <div class="d-flex justify-content-center align-items-baseline header__languages-wrapper">
+                                        <div class="header__languages">
+                                            <div class="header__dropdown">
+                                                <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-secondary dropdown-toggle modal-r">
+                                                <picture>
+                                                    <source srcset="assets/img/header/ru.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/ru.png" alt="ru">
+                                                </picture>
+                                                RU
+                                            </button>
+                                                <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/ua.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/ua.png" alt="ua">
+                                                            </picture>
+                                                            ua
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/en.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/en.png" alt="en">
+                                                            </picture>
+                                                            en
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/de.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/de.png" alt="pl">
+                                                            </picture>
+                                                            pl
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-header">
+                                            <h5 id="exampleModalLabel" class="modal-title">МEHЮ</h5> <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"><img src="assets/img/header/close.webp" alt="close"></button>
+                                        </div>
+                                    </div>
+                                    <div class="panel-decor-wr" style="background-color: black;">
+                                        <div class="reg-link-wr-out">
+                                            <div class="reg-link-wr">
+                                                <a href="#" class="login">Войти</a>/<a href="#" class="registration">Регистрация</a>
+                                            </div>
+                                        </div>
+                                        <ul class="burger-menu-wr">
+                                            <li><a href="#">Договор публичной оферты</a></li>
+                                            <li><a href="#">Политика конфиденциальности</a></li>
+                                            <li><a href="#">Отзывы</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="burger-contact-wr">
+                                        <div class="burger-modal-wp">
+                                            <div class="burger-contact-title" style="margin: 40px auto 10px auto;">Связаться с нами</div>
+                                        </div>
+                                        <div class="burger-social-link-wr">
+                                            <a href="mailto:support@legko-v-uchebe.com" class="burger-mail">support@only-student.com</a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/burger_tg.svg" type="image/svg+xml">
+                                                    <img src="assets/img/footer/Vector (7).png" alt="enter icon">
+                                                </picture>
+                                                <span class="text">Консультация в Telegram</span>
+                                            </a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/burger-vb.svg" alt="viber" type="image/svg+xml">
+                                                    <img src="assets/img/footer/Vector (6).png" alt="enter icon">
+                                                </picture>
+                                                <span class="text">Консультация в Viber</span>
+                                            </a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/chat.webp" alt="viber" type="image/webp+xml">
+                                                    <img class="chat-base" src="assets/img/footer/chat.png" alt="chat">
+                                                </picture>
+                                                <span class="text">Online-ЧАТ</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal consultation fade" style="width: 100%; background-color: #01000F;" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog consultation">
+                        <div class="modal-content consultation" style="background-color: transparent;">
+                            <div class="modal-header consultation">
+                            </div>
+
+                            <div class="modal-body consultation top">
+                                <h3 class="partners-title">Регистрация исполнитетей и партнеров</h3>
+                                <ul>
+                                    <li class="modal-tab-active-first active-tab">Шаг 1 - </li>
+                                    <li class="modal-tab-active-second">Шаг 2</li>
+                                </ul>
+                                <div class="tabs__content test1 active">
+                                    <div class="modal-form-group">
+                                        <div class="field">
+                                            <label for="name">Как к Вам обращаться?</label>
+                                            <input class="modal-form-input" type="text" id="name">
+                                        </div>
+                                        <div class="field">
+                                            <label for="email">Адрес электронной почты</label>
+                                            <input class="modal-form-input" type="text" id="email">
+                                        </div>
+                                        <div class="field">
+                                            <label for="tel">Номер телефона*</label>
+                                            <input class="modal-form-input" type="nubmer" id="tel">
+                                        </div>
+                                        <label class="modal-label-subtitle" for="tel">*номер телефона является паролем</label>
+                                        <div class="modal-farther">
+                                            <button type="button" class="modal-second-step" disabled="disabled" id="staticBackdropBtn" data-bs-target="#staticBackdrop">
+                                                Далее
+                                            <div class="circle">
+                                                <picture>
+                                                    <source aria-disabled srcset="assets/img/header/Vector 94.webp" alt="arrow" loading="lazy" type="image/webp+xml">
+                                                    <img aria-disabled src="assets/img/header/Vector 94.png" alt="arrow" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </button>
+                                        </div>
+                                        <div class="police-of-agreement-wrapper-check">
+                                            <label class="label-check">
+                                                <input class="label-check-inp" type='checkbox' checked>
+                                                <span></span>
+                                                <div class="check">«Ознакомлен с правилами <a href="#">политики конфиденциальности</a> и согласен об использовании файлов cookie»</div>
+                                            </label>
+
+                                            <label class="label-check">
+                                                <input class="label-check-inp" type='checkbox' checked>
+                                                <span></span>
+                                                <div class="check check-last">Ознакомлен<a href="#"> Партнерским соглашением  Правилами использования сервиса</a> </div>
+                                            </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="tabs__content test2">
+                                    <div class="partners-studies-work-popup hide-popup">
+                                        <span class="close-work-popup"></span>
+                                        <h2 class="work-popup-title">Выберите необходимые предметы</h2>
+                                        <div class="work-popup-inner">
+                                            <div class="work-popup-col">
+                                                <span class="partners-popup-subject">Административное право</span>
+                                                <span class="partners-popup-subject">Анализ</span>
+                                                <span class="partners-popup-subject">Анатомия</span>
+                                                <span class="partners-popup-subject">Английский язык</span>
+                                                <span class="partners-popup-subject">Архитектура</span>
+                                                <span class="partners-popup-subject">Астрономия</span>
+                                                <span class="partners-popup-subject">Аудит, бух и управленческий учет</span>
+                                                <span class="partners-popup-subject">Банковское дело</span>
+                                                <span class="partners-popup-subject">БЖД</span>
+                                                <span class="partners-popup-subject">Бизнес-планирование</span>
+                                                <span class="partners-popup-subject">Биология</span>
+                                                <span class="partners-popup-subject">Внешнеэконом деятельность</span>
+                                                <span class="partners-popup-subject">География</span>
+                                                <span class="partners-popup-subject">Геодезия</span>
+                                                <span class="partners-popup-subject">Геополитика</span>
+                                                <span class="partners-popup-subject">Гидравлика</span>
+                                                <span class="partners-popup-subject">Гостиничное дело</span>
+                                                <span class="partners-popup-subject">Гражданское право</span>
+                                                <span class="partners-popup-subject">Гражданский процесс </span>
+                                                <span class="partners-popup-subject">Графика</span>
+                                                <span class="partners-popup-subject">Делопроизводство</span>
+                                                <span class="partners-popup-subject">Деньги, кредит,банки</span>
+                                                <span class="partners-popup-subject">Детали машин</span>
+                                                <span class="partners-popup-subject">Дизайн</span>
+                                                <span class="partners-popup-subject">Журналистика</span>
+                                                <span class="partners-popup-subject">Здравоохранение </span>
+                                                <span class="partners-popup-subject">Инженерная графика</span>
+                                                <span class="partners-popup-subject">Иностранные языки</span>
+                                                <span class="partners-popup-subject">Информатика</span>
+                                                <span class="partners-popup-subject">История</span>
+                                                <span class="partners-popup-subject">Искусство</span>
+                                                <span class="partners-popup-subject">Компьютерные сети и телекоммуникации</span>
+                                                <span class="partners-popup-subject">Конфликтология</span>
+                                                <span class="partners-popup-subject">Криминалистика</span>
+                                                <span class="partners-popup-subject">Криминология</span>
+                                                <span class="partners-popup-subject">Кулинария</span>
+                                                <span class="partners-popup-subject">Культура и искусство</span>
+                                                <span class="partners-popup-subject">Культурология</span>
+                                                <span class="partners-popup-subject">Лингвистика</span>
+                                                <span class="partners-popup-subject">Литература</span>
+                                                <span class="partners-popup-subject">Логика</span>
+                                                <span class="partners-popup-subject">Логистика</span>
+                                                <span class="partners-popup-subject">Логопедия</span>
+                                                <span class="partners-popup-subject">Макроэкономика</span>
+                                                <span class="partners-popup-subject">Маркетинг</span>
+                                                <span class="partners-popup-subject">Математика</span>
+                                                <span class="partners-popup-subject">Материаловедение</span>
+                                                <span class="partners-popup-subject">Машиностроение</span>
+                                                <span class="partners-popup-subject">Медицина</span>
+                                                <span class="partners-popup-subject">Международные отношения</span>
+                                                <span class="partners-popup-subject">Менеджмент</span>
+                                            </div>
+                                            <div class="work-popup-col">
+                                                <span class="partners-popup-subject">Механика</span>
+                                                <span class="partners-popup-subject">Немецкий язык</span>
+                                                <span class="partners-popup-subject">Организация труда и производства</span>
+                                                <span class="partners-popup-subject">Основы конструирования</span>
+                                                <span class="partners-popup-subject">Охрана природы</span>
+                                                <span class="partners-popup-subject">Охрана труда</span>
+                                                <span class="partners-popup-subject">Педагогика</span>
+                                                <span class="partners-popup-subject">Педиатрия</span>
+                                                <span class="partners-popup-subject">Политология</span>
+                                                <span class="partners-popup-subject">Право</span>
+                                                <span class="partners-popup-subject">Программирование</span>
+                                                <span class="partners-popup-subject">Промышленность</span>
+                                                <span class="partners-popup-subject">Процессы и апп пищевой пром</span>
+                                                <span class="partners-popup-subject">Психология</span>
+                                                <span class="partners-popup-subject">Радиосвязь и радиотехника</span>
+                                                <span class="partners-popup-subject">Разное</span>
+                                                <span class="partners-popup-subject">Реклама, PR</span>
+                                                <span class="partners-popup-subject">Русский язык и литература</span>
+                                                <span class="partners-popup-subject">Сельское хозяйство</span>
+                                                <span class="partners-popup-subject">Сопромат</span>
+                                                <span class="partners-popup-subject">Социология</span>
+                                                <span class="partners-popup-subject">Статистика</span>
+                                                <span class="partners-popup-subject">Страхование</span>
+                                                <span class="partners-popup-subject">Строительство</span>
+                                                <span class="partners-popup-subject">Таможенное дело</span>
+                                                <span class="partners-popup-subject">Телекоммуникация</span>
+                                                <span class="partners-popup-subject">Теория государства и права</span>
+                                                <span class="partners-popup-subject">Технические</span>
+                                                <span class="partners-popup-subject">Товароведение</span>
+                                                <span class="partners-popup-subject">Транспорт</span>
+                                                <span class="partners-popup-subject">Туризм</span>
+                                                <span class="partners-popup-subject">Украинский язык и литература</span>
+                                                <span class="partners-popup-subject">Управление персоналом</span>
+                                                <span class="partners-popup-subject">Уголовное право</span>
+                                                <span class="partners-popup-subject">Уголовный процесс</span>
+                                                <span class="partners-popup-subject">Физика</span>
+                                                <span class="partners-popup-subject">Физкультура и спорт</span>
+                                                <span class="partners-popup-subject">Филология</span>
+                                                <span class="partners-popup-subject">Философия</span>
+                                                <span class="partners-popup-subject">Финансы</span>
+                                                <span class="partners-popup-subject">Французский язык</span>
+                                                <span class="partners-popup-subject">Химия</span>
+                                                <span class="partners-popup-subject">Хирургия </span>
+                                                <span class="partners-popup-subject">Черчение</span>
+                                                <span class="partners-popup-subject">Экология</span>
+                                                <span class="partners-popup-subject">Экономические дисциплины</span>
+                                                <span class="partners-popup-subject">Экскурсоведение</span>
+                                                <span class="partners-popup-subject">Электроника и радиотехника</span>
+                                                <span class="partners-popup-subject">Этика и эстетика</span>
+                                                <span class="partners-popup-subject">Юридические дисциплины</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="partners-work-popup-teacher hide-popup">
+                                        <span class="close-work-popup"></span>
+                                        <h2 class="work-popup-title">Выберите необходимые предметы</h2>
+                                        <div class="work-popup-inner">
+                                            <div class="work-popup-col">
+                                                <span class="partners-popup-subject">Анатомия</span>
+                                                <span class="partners-popup-subject">Английский язык</span>
+                                                <span class="partners-popup-subject">Архитектура</span>
+                                                <span class="partners-popup-subject">Астрономия</span>
+                                                <span class="partners-popup-subject">Биология</span>
+                                                <span class="partners-popup-subject">Веб дизайн</span>
+                                                <span class="partners-popup-subject">Видеомонтаж</span>
+                                                <span class="partners-popup-subject">География</span>
+                                                <span class="partners-popup-subject">Геометрия</span>
+                                                <span class="partners-popup-subject">Дизайн</span>
+                                                <span class="partners-popup-subject">Другой предмет</span>
+                                                <span class="partners-popup-subject">Журналистика</span>
+                                                <span class="partners-popup-subject">Иностранные языки</span>
+                                                <span class="partners-popup-subject">Информатика</span>
+                                                <span class="partners-popup-subject">История</span>
+                                                <span class="partners-popup-subject">Ландшафтный дизайн</span>
+                                            </div>
+                                            <div class="work-popup-col">
+                                                <span class="partners-popup-subject">Логика</span>
+                                                <span class="partners-popup-subject">Графика</span>
+                                                <span class="partners-popup-subject">Маркетинг</span>
+                                                <span class="partners-popup-subject">Математика</span>
+                                                <span class="partners-popup-subject">Немецкий язык</span>
+                                                <span class="partners-popup-subject">Польский язык</span>
+                                                <span class="partners-popup-subject">Правознавство</span>
+                                                <span class="partners-popup-subject">Программирование</span>
+                                                <span class="partners-popup-subject">Психология</span>
+                                                <span class="partners-popup-subject">Рисование</span>
+                                                <span class="partners-popup-subject">Украинский язык</span>
+                                                <span class="partners-popup-subject">Физика</span>
+                                                <span class="partners-popup-subject">Философия</span>
+                                                <span class="partners-popup-subject">Химия</span>
+                                                <span class="partners-popup-subject">Экология</span>
+                                                <span class="partners-popup-subject">Электротехника</span>
+                                                <span class="partners-popup-subject">Юриспруденция</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="order-select-group">
+                                        <button class="learning-order-select active-btn">
+                                            Учеба/решение
+                                        </button>
+                                        <button class="teachers-order-select">
+                                            Предметы репетиторов
+                                        </button>
+                                    </div>
+                                    <div class="learning">
+                                        <div class="tabs__content first-part-of-modal active">
+                                            <form class="learning__form">
+                                                <label class="learning__label">Предметы учебных работ</label>
+                                                <button type="button" class="choose-theme-of-subject">Выберите предмет</button>
+                                                <label class="learning__label">Номер банковской карты*</label>
+                                                <input type="text" class="modal-form-input" placeholder="Введите подлинную карту">
+                                                <label class="label-topic" for="topic" id="label-topic">Информация о себе</label>
+                                                <div class="textarea-wrapper">
+                                                    <textarea maxlength="1000" style="resize: vertical;" rows="15" cols="50" id="topic" name="topic" rows="5" placeholder="Расскажите о себе: Ваша деятельность, какой опыт, где ранее работали &#10; и так далее... (МАКСИМАЛЬНО 1000 символов)&#10;&#10;&#10;&#10;&#10;Осталось 1000 символов"></textarea>
+                                                    <p><span style="font-size: 13px; margin: 0 0 0 10px;" id="leftChars"></span></p>
+                                                </div>
+                                                <div class="partners-desc-info">
+                                                    <span>*мы не собираем о Вас информацию, мы шифруем Ваши личные данные, карта нужна для осуществления выплаты по выполненным заказам.</span>
+                                                </div>
+                                                <button class="partners-register" type="submit">Зарегистрироваться</button>
+                                            </form>
+                                        </div>
+
+                                        <section class="tabs__content second-part-of-modal">
+                                            <form class="learning__form teacher">
+                                                <label>Предметы учебных работ</label>
+                                                <button type="button" class="choose-teacher-subject">Выберите предмет</button>
+                                                <label for="">Номер банковской карты*</label>
+                                                <input type="text" class="modal-form-input" placeholder="Введите подлинную карту">
+                                                <label class="form__label-teacher" id="label-teacher" for="infoaboutyorself">Информация о себе</label>
+                                                <div class="textarea-wrapper">
+                                                    <textarea maxlength="1000" style="resize: vertical;" class="description teacher" id="infoaboutyorself" name="infoaboutyorself" placeholder="Расскажите о себе: Ваша деятельность, какой опыт, где ранее работали &#10; и так далее... (МАКСИМАЛЬНО 1000 символов)&#10;&#10;&#10;&#10;&#10;Осталось 1000 символов"></textarea>
+                                                    <p><span style="font-size: 13px; margin: 0 0 0 10px; " id="leftCharsTeach"></span></p>
+                                                </div>
+                                                <div class="partners-desc-info">
+                                                    <span>*мы не собираем о Вас информацию, мы шифруем Ваши личные данные, карта нужна для осуществления выплаты по выполненным заказам.</span>
+                                                </div>
+                                                <button class="partners-register" type="submit">Зарегистрироваться</button>
+                                            </form>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+<script src="assets/js/headerMenuToggle.js"></script>
+<script src="assets/js/headerModal.js "></script>
+<script src="assets/js/partners.js"></script>
+<script src="assets/js/scrolltop.js"></script>
+<script src="assets/js/preload.js"></script>
+
+</html>

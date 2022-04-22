@@ -1,0 +1,756 @@
+                                                    .footer {
+                                                        width: 100%;
+                                                    }
+                                                    
+                                                    .footer__wrapper {
+                                                        max-width: 1440px;
+                                                        width: 96%;
+                                                        margin: 0 auto;
+                                                    }
+                                                    
+                                                    .footer__payment--body {
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        max-width: 250px;
+                                                        max-height: 160px;
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        align-items: center;
+                                                    }
+                                                    
+                                                    .footer__payment--body img {
+                                                        margin: 2%;
+                                                        -o-object-fit: contain;
+                                                        object-fit: contain;
+                                                    }
+                                                    
+                                                    .footer__payment--body picture {
+                                                        width: 20%;
+                                                    }
+                                                    
+                                                    .footer__payment--body .wrapper picture {
+                                                        width: 100%;
+                                                    }
+                                                    
+                                                    .footer__payment--body div {
+                                                        margin: 2%;
+                                                        width: 40%;
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                    }
+                                                    
+                                                    .footer__payment--body div img {
+                                                        margin: 0;
+                                                        width: 90%;
+                                                    }
+                                                    
+                                                    .footer__about--body .links {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        padding: 0;
+                                                    }
+                                                    
+                                                    .footer__about--body .links li {
+                                                        padding-right: 5px;
+                                                    }
+                                                    
+                                                    .footer__about--body .links li a {
+                                                        color: #fff;
+                                                        font-family: "M PLUS 1p", sans-serif;
+                                                        font-style: normal;
+                                                        font-weight: 500;
+                                                        font-size: 1.8em;
+                                                    }
+                                                    
+                                                    .footer__about--body .other-links {
+                                                        padding: 0;
+                                                    }
+                                                    
+                                                    .footer__about--body .other-links li {
+                                                        padding: 5px 0;
+                                                    }
+                                                    
+                                                    .footer__about--body .other-links li a {
+                                                        color: #fff;
+                                                        font-family: "M PLUS 1p", sans-serif;
+                                                        font-style: normal;
+                                                        font-weight: 500;
+                                                        font-size: 1.8em;
+                                                    }
+                                                    
+                                                    .footer-partner {
+                                                        font-size: 24px;
+                                                    }
+                                                    
+                                                    .footer__connect--title {
+                                                        display: flex;
+                                                        align-items: center;
+                                                    }
+                                                    
+                                                    .footer__connect--title img {
+                                                        width: 50px;
+                                                    }
+                                                    
+                                                    .footer__connect--body .links {
+                                                        padding-left: 0;
+                                                        padding-bottom: 20px;
+                                                    }
+                                                    
+                                                    .footer__connect--body .links li:first-child {
+                                                        padding: 25px 0;
+                                                    }
+                                                    
+                                                    .footer__connect--body .links li a {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        color: #fff;
+                                                        font-family: "M PLUS 1p", sans-serif;
+                                                        font-style: normal;
+                                                        font-weight: 800;
+                                                        /*font-size: 1.8em;*/
+                                                    }
+                                                    
+                                                    .footer-partner {
+                                                        font-size: 2.50em;
+                                                    }
+                                                    
+                                                    .footer__connect--body button {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        height: 50px;
+                                                        position: relative;
+                                                        background: #010714;
+                                                        border: 1px solid #f6e3ff;
+                                                        box-shadow: -2px -2px 10px rgba(255, 0, 168, 0.5), 2px 2px 10px rgba(255, 0, 168, 0.5), 2px -2px 10px rgba(255, 0, 168, 0.5), -2px 2px 10px rgba(255, 0, 168, 0.5);
+                                                        border-radius: 40px;
+                                                        padding: 20px;
+                                                        height: 40px;
+                                                    }
+                                                    
+                                                    .footer__connect--body button .circle {
+                                                        position: relative;
+                                                        right: -7px;
+                                                        width: 64px;
+                                                        height: 64px;
+                                                        background: #b61bff;
+                                                        border-radius: 50%;
+                                                        box-shadow: -2px 2px 10px rgba(255, 0, 168, 0.5), 2px -2px 10px rgba(255, 0, 168, 0.5), -2px -2px 10px rgba(255, 0, 168, 0.5), -2px 2px 10px rgba(255, 0, 168, 0.5);
+                                                    }
+                                                    
+                                                    .footer__connect--body button .circle img {
+                                                        position: absolute;
+                                                        top: 40%;
+                                                        right: 40%;
+                                                    }
+                                                    
+                                                    .footer__connect--body button:after {
+                                                        position: absolute;
+                                                        right: 0;
+                                                        width: 62px;
+                                                        height: 62px;
+                                                        background: #b61bff;
+                                                        box-shadow: -2px 2px 10px rgba(255, 0, 168, 0.5), 2px -2px 10px rgba(255, 0, 168, 0.5), -2px -2px 10px rgba(255, 0, 168, 0.5), -2px 2px 10px rgba(255, 0, 168, 0.5);
+                                                    }
+                                                    
+                                                    .footer__connect--body button:hover {
+                                                        background: #820357;
+                                                    }
+                                                    
+                                                    .footer__connect--body button:active {
+                                                        background: #5c023e;
+                                                    }
+                                                    
+                                                    .footer__connect--body button div {
+                                                        font-size: 1.8em;
+                                                        line-height: 124%;
+                                                        display: flex;
+                                                        align-items: center;
+                                                        background: 0 0;
+                                                    }
+                                                    
+                                                    .footer .title,
+                                                    .footer__connect--body button div {
+                                                        font-family: "M PLUS 1p", sans-serif;
+                                                        font-style: normal;
+                                                        font-weight: 800;
+                                                        color: #fff;
+                                                    }
+                                                    
+                                                    .footer .title {
+                                                        font-size: 2.5em;
+                                                    }
+                                                    
+                                                    .footer__copyrighting {
+                                                        justify-content: center;
+                                                        display: flex;
+                                                        font-family: Montserrat, sans-serif;
+                                                        font-style: normal;
+                                                        font-weight: 600;
+                                                        font-size: 1.8em;
+                                                        line-height: 22px;
+                                                        color: #fff;
+                                                        padding: 25px 0;
+                                                    }
+                                                    
+                                                    .footer__connect--title:hover .chat-base {
+                                                        display: none;
+                                                    }
+                                                    
+                                                    .footer__connect--title:hover .chat-hover {
+                                                        display: block;
+                                                    }
+                                                    
+                                                    .footer__connect--title:hover .chat-click {
+                                                        display: none;
+                                                    }
+                                                    
+                                                    .footer__connect--title:active .chat-base {
+                                                        display: none;
+                                                    }
+                                                    
+                                                    .footer__connect--title:active .chat-hover {
+                                                        display: none;
+                                                    }
+                                                    
+                                                    .footer__connect--title:active .chat-click {
+                                                        display: block;
+                                                    }
+                                                    
+                                                    .footer__payment--title {
+                                                        margin-bottom: 20px;
+                                                    }
+                                                    
+                                                    .footer__about--title {
+                                                        margin-bottom: 18px;
+                                                    }
+                                                    /* Media */
+                                                    
+                                                    @media (max-width: 768px) {
+                                                        .footer__wrapper {
+                                                            display: flex;
+                                                            flex-direction: row-reverse;
+                                                            /* width: 80% !important; */
+                                                        }
+                                                        .footer__payment {
+                                                            width: 30%;
+                                                        }
+                                                        .footer__payment--body {
+                                                            display: block !important;
+                                                        }
+                                                        .footer__payment--body img {
+                                                            width: auto !important;
+                                                            margin: 0 30% !important;
+                                                        }
+                                                        .footer__payment--body .img {
+                                                            width: 100% !important;
+                                                        }
+                                                        .footer .fields {
+                                                            width: 70%;
+                                                        }
+                                                        .footer__connect {
+                                                            padding-top: 25px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 768px) {
+                                                        .footer__payment--title {
+                                                            text-align: right;
+                                                            margin-bottom: 20px;
+                                                            width: 120px;
+                                                            margin-left: 10px;
+                                                            margin-right: 50px;
+                                                        }
+                                                        .footer__wrapper {
+                                                            width: 80% !important;
+                                                        }
+                                                        .footer .fields {
+                                                            width: 60%;
+                                                        }
+                                                        .footer__payment {
+                                                            width: 40%;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 550px) {
+                                                        .feedback-link:hover .popup {
+                                                            display: block;
+                                                        }
+                                                        .footer__wrapper {
+                                                            width: 90% !important;
+                                                        }
+                                                        .footer__payment--title {
+                                                            text-align: right;
+                                                            margin-left: -2px;
+                                                            width: 110px;
+                                                        }
+                                                        .footer__payment--body {
+                                                            display: block !important;
+                                                        }
+                                                        .footer__payment--body img {
+                                                            width: auto !important;
+                                                            margin: 0 !important;
+                                                        }
+                                                        .footer__payment--body .img {
+                                                            width: 100% !important;
+                                                        }
+                                                        .footer__connect--title.title {
+                                                            width: 220px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 375px) {
+                                                        .footer__connect {
+                                                            padding-bottom: 30px;
+                                                        }
+                                                        .footer__connect--title {
+                                                            justify-content: center;
+                                                        }
+                                                        .footer__connect--body .links {
+                                                            padding: 10px 0;
+                                                        }
+                                                        .footer__connect--body .links li {
+                                                            justify-content: center;
+                                                            display: flex;
+                                                        }
+                                                        .footer button {
+                                                            margin: 0 auto;
+                                                        }
+                                                        .footer__about--title {
+                                                            text-align: center;
+                                                            padding-bottom: 10px;
+                                                        }
+                                                        .footer__about--body .links {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            justify-content: center;
+                                                            padding-bottom: 25px;
+                                                        }
+                                                        .footer__about--body .links li {
+                                                            padding: 0 15px;
+                                                        }
+                                                        .footer__about--body .other-links li {
+                                                            padding: 10px 0 !important;
+                                                            text-align: center;
+                                                        }
+                                                        .footer__wrapper {
+                                                            flex-direction: column-reverse;
+                                                            width: 90% !important;
+                                                        }
+                                                        .footer__payment {
+                                                            width: 100%;
+                                                        }
+                                                        .footer__payment--title {
+                                                            text-align: center;
+                                                        }
+                                                        .footer__payment--body {
+                                                            display: flex !important;
+                                                            max-width: 100% !important;
+                                                        }
+                                                        .footer__payment--body .img {
+                                                            width: 35% !important;
+                                                            flex-wrap: nowrap;
+                                                        }
+                                                        .footer__payment--body .img img {
+                                                            width: 100% !important;
+                                                        }
+                                                        .footer .fields {
+                                                            width: 100%;
+                                                        }
+                                                    }
+                                                    
+                                                    .feedback-link {
+                                                        display: block;
+                                                        position: relative;
+                                                        text-decoration: none;
+                                                        font-weight: bold;
+                                                        font-size: 24px;
+                                                        line-height: 112.4%;
+                                                        color: #FFFFFF;
+                                                        /*margin-bottom: 44px;*/
+                                                        padding: 0 55px 0 0;
+                                                        cursor: pointer;
+                                                    }
+                                                    
+                                                    .mail-link {
+                                                        display: block;
+                                                        font-weight: 500;
+                                                        font-size: 18px;
+                                                        line-height: 112.4%;
+                                                        color: #FFFFFF;
+                                                        position: relative;
+                                                        /*margin-bottom: 40px;*/
+                                                        text-decoration: none;
+                                                        padding: 0 33px 0 0;
+                                                        font-family: "M PLUS 1p", sans-serif;
+                                                    }
+                                                    
+                                                    .mail-link:before {
+                                                        content: '';
+                                                        display: inline-block;
+                                                        width: 25px;
+                                                        height: 20px;
+                                                        position: absolute;
+                                                        right: 227px;
+                                                        top: calc(50% - 12px);
+                                                    }
+                                                    
+                                                    .feedback-link:before {
+                                                        content: '';
+                                                        display: inline-block;
+                                                        position: absolute;
+                                                        right: 0;
+                                                        top: calc(50% - 32px);
+                                                        border-radius: 50%;
+                                                        width: 54px;
+                                                        height: 54px;
+                                                        background: url("../img/footer/chat.png")50% / contain no-repeat;
+                                                    }
+                                                    
+                                                    .feedback-link:hover::before {
+                                                        position: absolute;
+                                                        background: url("../img/footer/чат.png")50% / contain no-repeat;
+                                                    }
+                                                    
+                                                    .popup {
+                                                        display: none;
+                                                        position: absolute;
+                                                        bottom: 30px;
+                                                        left: -4px;
+                                                        z-index: 22;
+                                                        max-width: 280px;
+                                                        width: 100%;
+                                                        padding: 8px 16px 18px;
+                                                        background: rgba(0, 155, 194, 0.31);
+                                                        border-radius: 10px;
+                                                        background: url("data:image/svg+xml,%3Csvg width='279' height='126' viewBox='0 0 279 126' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M263.821 116.723H263.224L262.941 117.249L259.278 124.051L253.001 117.056L252.703 116.723H252.256H10C5.02944 116.723 1 112.694 1 107.723V9.99951C1 5.02895 5.02944 0.999512 10 0.999512L269 0.999512C273.971 0.999512 278 5.02895 278 9.99951V107.723C278 112.694 273.971 116.723 269 116.723H263.821Z' fill='%23013349' fill-opacity='1' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A")0 0 / contain no-repeat;
+                                                    }
+                                                    
+                                                    .popup-modal {
+                                                        display: none;
+                                                        position: absolute;
+                                                        z-index: 22;
+                                                        max-width: 280px;
+                                                        width: 100%;
+                                                        padding: 15px 18px 11px;
+                                                        background: rgba(0, 155, 194, 0.31);
+                                                        border-radius: 10px;
+                                                        background: url("data:image/svg+xml,%3Csvg width='279' height='126' viewBox='0 0 279 126' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M263.821 116.723H263.224L262.941 117.249L259.278 124.051L253.001 117.056L252.703 116.723H252.256H10C5.02944 116.723 1 112.694 1 107.723V9.99951C1 5.02895 5.02944 0.999512 10 0.999512L269 0.999512C273.971 0.999512 278 5.02895 278 9.99951V107.723C278 112.694 273.971 116.723 269 116.723H263.821Z' fill='%23013349' fill-opacity='1' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A")0 0 / contain no-repeat;
+                                                        bottom: 25%;
+                                                        right: 44%;
+                                                    }
+                                                    
+                                                    .feedback-link:hover .popup {
+                                                        display: block;
+                                                    }
+                                                    
+                                                    .burger-modal-wp:hover .popup-modal {
+                                                        display: block;
+                                                    }
+                                                    
+                                                    .feedback-social-link:hover {
+                                                        text-decoration: underline;
+                                                    }
+                                                    
+                                                    .feedback-social-link .text {
+                                                        font-weight: 800;
+                                                        font-size: 14px;
+                                                        line-height: 112.4%;
+                                                        color: #FFFFFF;
+                                                    }
+                                                    
+                                                    @media (min-width: 746px) {
+                                                        .popup-modal {
+                                                            display: none;
+                                                        }
+                                                    }
+                                                    
+                                                    .feedback-social-link {
+                                                        display: flex;
+                                                        align-items: center;
+                                                        text-decoration: none;
+                                                        margin-bottom: 6px;
+                                                    }
+                                                    
+                                                    .feedback-social-link img {
+                                                        margin-right: 6px;
+                                                        max-width: 25px;
+                                                        width: auto;
+                                                        height: auto;
+                                                    }
+                                                    
+                                                    .footer-left {
+                                                        width: 300px;
+                                                    }
+                                                    
+                                                    .payments-item-wr {
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                    }
+                                                    
+                                                    @media all and (min-width: 376px) and (max-width: 768px) {
+                                                        .payments-item-wr {
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            width: 62%;
+                                                        }
+                                                    }
+                                                    
+                                                    .payments-item-wr .payments-item {
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        align-items: flex-start;
+                                                        max-width: 50%;
+                                                        margin-right: 17px;
+                                                        margin-bottom: 14px;
+                                                    }
+                                                    
+                                                    @media all and (min-width: 376px) and (max-width: 768px) {
+                                                        .payments-item-wr .payments-item {
+                                                            max-width: 100%;
+                                                            margin: 0 0 22px;
+                                                            align-items: flex-end;
+                                                        }
+                                                        .payments-item-wr .payments-item:last-child img:first-child {
+                                                            margin-bottom: 22px;
+                                                        }
+                                                        .footer__about--body {
+                                                            font-size: 1.25em;
+                                                        }
+                                                        .mail-link {
+                                                            font-size: 2em;
+                                                        }
+                                                        .feedback-link {
+                                                            font-size: 1.15em;
+                                                        }
+                                                        .popup-modal {
+                                                            display: none;
+                                                            position: absolute;
+                                                            z-index: 22;
+                                                            max-width: 280px;
+                                                            width: 100%;
+                                                            padding: 15px 18px 11px;
+                                                            background: rgba(0, 155, 194, 0.31);
+                                                            border-radius: 10px;
+                                                            background: url("data:image/svg+xml,%3Csvg width='279' height='126' viewBox='0 0 279 126' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M263.821 116.723H263.224L262.941 117.249L259.278 124.051L253.001 117.056L252.703 116.723H252.256H10C5.02944 116.723 1 112.694 1 107.723V9.99951C1 5.02895 5.02944 0.999512 10 0.999512L269 0.999512C273.971 0.999512 278 5.02895 278 9.99951V107.723C278 112.694 273.971 116.723 269 116.723H263.821Z' fill='%23013349' fill-opacity='1' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A")0 0 / contain no-repeat;
+                                                            bottom: 33%;
+                                                            right: 38%;
+                                                            right: 41%;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 858px) {
+                                                        .popup {
+                                                            bottom: 56px;
+                                                            left: -2px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 1163px) {
+                                                        .popup-modal {
+                                                            display: none;
+                                                            position: absolute;
+                                                            z-index: 22;
+                                                            max-width: 280px;
+                                                            width: 100%;
+                                                            padding: 15px 18px 11px;
+                                                            background: rgba(0, 155, 194, 0.31);
+                                                            border-radius: 10px;
+                                                            background: url("data:image/svg+xml,%3Csvg width='279' height='126' viewBox='0 0 279 126' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M263.821 116.723H263.224L262.941 117.249L259.278 124.051L253.001 117.056L252.703 116.723H252.256H10C5.02944 116.723 1 112.694 1 107.723V9.99951C1 5.02895 5.02944 0.999512 10 0.999512L269 0.999512C273.971 0.999512 278 5.02895 278 9.99951V107.723C278 112.694 273.971 116.723 269 116.723H263.821Z' fill='%23013349' fill-opacity='1' stroke='white' stroke-width='2'/%3E%3C/svg%3E%0A")0 0 / contain no-repeat;
+                                                            bottom: 28%;
+                                                            right: 41%;
+                                                        }
+                                                        @media all and (max-width: 375px) {
+                                                            .payments-item-wr .payments-item {
+                                                                max-width: 60px;
+                                                                margin: 0 12px 30px;
+                                                                align-items: center;
+                                                                flex-direction: row;
+                                                            }
+                                                            .payments-item-wr .payments-item:last-child img:first-child {
+                                                                margin-right: 24px;
+                                                            }
+                                                        }
+                                                        .payments-item-wr .payments-item img {
+                                                            max-width: 100%;
+                                                            height: auto;
+                                                        }
+                                                        @media (max-width: 768) {
+                                                            .footer__payment--title.title {
+                                                                width: 156px;
+                                                                margin: 0 0 0 41px;
+                                                                text-align: right;
+                                                            }
+                                                        }
+                                                        @media (max-width: 768px) {
+                                                            .footer-left {
+                                                                width: 156%;
+                                                            }
+                                                        }
+                                                        @media all and (max-width: 375px) {
+                                                            .footer-left {
+                                                                width: 106%;
+                                                            }
+                                                            .footer__payment--title.title {
+                                                                margin-left: auto;
+                                                                margin-right: auto;
+                                                                margin-bottom: 20px;
+                                                                width: 100%;
+                                                            }
+                                                            .footer__copyrighting {
+                                                                padding-top: 0;
+                                                            }
+                                                            .footer__connect--body button {
+                                                                margin-top: 10px;
+                                                            }
+                                                            .footer__connect--body button div {
+                                                                font-size: 2.25em;
+                                                                font-family: "M PLUS 1p", sans-serif;
+                                                                font-weight: 300;
+                                                            }
+                                                            .footer__about--body {
+                                                                font-size: 1.50em;
+                                                            }
+                                                            .mail-link {
+                                                                font-size: 2.50em;
+                                                            }
+                                                            .popup {
+                                                                left: 26px;
+                                                            }
+                                                        }
+                                                    }
+                                                    
+                                                    .liqpay {
+                                                        margin-top: 0;
+                                                    }
+                                                    
+                                                    @media (max-width: 769px) {
+                                                        .burger-modal-wp:hover .popup-modal {
+                                                            display: none;
+                                                        }
+                                                        .liqpay {
+                                                            margin-top: 20px;
+                                                        }
+                                                        .footer__about--body .other-links {
+                                                            padding: 0;
+                                                            line-height: 2;
+                                                        }
+                                                        .popup {
+                                                            padding: 12px 13px 13px;
+                                                            width: 342px;
+                                                            left: 5px;
+                                                        }
+                                                    }
+                                                    
+                                                    .sm-footer-bank {
+                                                        display: none;
+                                                    }
+                                                    
+                                                    .fields-inner {
+                                                        display: flex;
+                                                    }
+                                                    
+                                                    .footer__about--body .other-links {
+                                                        padding: 0;
+                                                        line-height: 1.6;
+                                                    }
+                                                    
+                                                    .liqpay {
+                                                        margin-top: 14px;
+                                                    }
+                                                    
+                                                    .footer__about {
+                                                        margin-left: 10px;
+                                                    }
+                                                    
+                                                    @media (max-width: 768px) {
+                                                        .footer__about {
+                                                            margin-left: 0;
+                                                        }
+                                                        .fields-inner {
+                                                            display: inherit;
+                                                        }
+                                                        .footer__about--body {
+                                                            width: 290px;
+                                                        }
+                                                        .footer__wrapper {
+                                                            display: flex;
+                                                            flex-direction: row-reverse;
+                                                            width: 90% !important;
+                                                        }
+                                                        .footer__connect--body ul>li {
+                                                            width: 300px;
+                                                        }
+                                                        .footer__payment {
+                                                            width: 33%;
+                                                        }
+                                                        .footer .fields {
+                                                            width: 61%;
+                                                        }
+                                                        .footer__connect--title.title {
+                                                            width: 270px;
+                                                        }
+                                                    }
+                                                    
+                                                    .footer__about--body {
+                                                        font-size: 9px;
+                                                    }
+                                                    
+                                                    @media (max-width: 550px) {
+                                                        .popup {
+                                                            padding: 12px 13px 13px;
+                                                            width: 342px;
+                                                            left: -44px;
+                                                            bottom: 37px;
+                                                        }
+                                                    }
+                                                    
+                                                    @media (max-width: 375px) {
+                                                        .payments-item.lg-footer-bank {
+                                                            display: none;
+                                                        }
+                                                        .sm-footer-bank {
+                                                            display: block;
+                                                        }
+                                                        .payments-item-wr .payments-item {
+                                                            margin-right: 0;
+                                                            margin-left: 5px;
+                                                        }
+                                                        .liqpay {
+                                                            width: 65px;
+                                                            margin-top: 15px;
+                                                        }
+                                                        .payments-item-wr .payments-item img {
+                                                            max-width: 50px;
+                                                            height: auto;
+                                                        }
+                                                        .payments-item .sm-footer-bank .world-b {
+                                                            max-width: 60px;
+                                                            height: auto;
+                                                        }
+                                                        picture .sm-footer-bank {
+                                                            width: 100px;
+                                                        }
+                                                        img.liqpay {
+                                                            width: 100px;
+                                                        }
+                                                        .footer .fields {
+                                                            width: 100%;
+                                                        }
+                                                        .footer__wrapper {
+                                                            flex-direction: column-reverse;
+                                                            width: 90% !important;
+                                                        }
+                                                        .footer__payment {
+                                                            width: 100%;
+                                                        }
+                                                        .footer__connect--title.title {
+                                                            width: 270px;
+                                                            margin-left: auto;
+                                                            margin-right: auto;
+                                                        }
+                                                        .popup {
+                                                            padding: 12px 13px 13px;
+                                                            width: 342px;
+                                                            left: 0;
+                                                        }
+                                                    }

@@ -1,0 +1,131 @@
+.rules-performens {
+    color: #fff;
+    font-family: "M PLUS 1p", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+.rules-performens-container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 25px;
+}
+
+.rules-title {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    max-width: 671px;
+    margin-bottom: 30px;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: rgba(39, 12, 29, 0.74);
+    -webkit-text-stroke: 3px #FF00E5;
+    text-shadow: -2px 2px 7px rgba(255, 0, 168, 0.5), 2px -2px 7px rgba(255, 0, 168, 0.5), -2px -2px 7px rgba(255, 0, 168, 0.5), -2px 2px 7px rgba(255, 0, 168, 0.5);
+}
+
+.rules-performens h2 {
+    font-size: 16px;
+    margin-top: 18px;
+}
+
+.rules-subtitle {
+    font-weight: bold;
+}
+
+.rules-table {
+    width: 1345px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.rules-performens tr {
+    height: 55px;
+}
+
+.rules-performens-container:last-of-type {
+    margin-bottom: 150px;
+}
+
+.rules-table td {
+    color: #000;
+    padding-left: 20px;
+}
+
+.table-title {
+    max-width: 100px;
+    line-height: 1.6;
+}
+
+.rules-performens-container:nth-of-type(2) {
+    line-height: 1.5;
+}
+
+.rules-performens-container:nth-of-type(2) h2 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.rules-subtitle-unique {
+    margin-bottom: 25px;
+}
+
+.force-major-info {
+    margin-bottom: 50px;
+}
+@media (max-width: 1300px) {
+    .scroll-table {
+        overflow: scroll;
+    }
+}
+@media (max-width: 768px) {
+
+    .rules-title {
+        text-align: center;
+        font-size: 40px;
+    }
+    .rules-performens {
+        color: #fff;
+        font-family: "M PLUS 1p", sans-serif;
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 0 90px;
+    }
+    .rules-table {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .rules-title {
+        text-align: center;
+        font-size: 38px;
+    }
+    .rules-performens {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .rules-title {
+        text-align: center;
+        font-size: 36px;
+    }
+    .rules-performens {
+        font-size: 14px;
+        padding: 0;
+    }
+    .rules-table {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+}
+

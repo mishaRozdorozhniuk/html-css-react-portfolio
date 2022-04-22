@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <title>Only-student</title>
+    <meta name="description" content="Наша цель, успешный студент и заветное «сессия закрыта». Все материалы проверены экспертами, что позволит защитить курсовую работу, решить задачу, написать магистерскую диссертацию с учетом требований.">
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/styles/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/header-modal.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/preload.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/criminal-low.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <div id="loading">
+        <div class="container-preload">
+            <div class="dash uno"></div>
+            <div class="dash dos"></div>
+            <span class="preload-articles-elipce"></span>
+            <div class="dash tres"></div>
+            <div class="dash cuatro"></div>
+            <span class="preload-articles-elipce-pink"></span>
+        </div>
+    </div>
+    <div id="__nuxt">
+        <div id="__layout">
+            <div>
+                <header class="header">
+                    <div class="header__wrapper">
+                        <div class="header__wrapper_logo">
+                            <a href="index.html" class="header_logo-link">
+                                <picture>
+                                    <source srcset="assets/img/header/logo.webp" type="image/webp+xml">
+                                    <img src="assets/img/header/logo.png" alt="logo" loading="lazy">
+                                </picture>
+                                <picture class="header-logo-name">
+                                    <source srcset="assets/img/header/logoname.svg" type="image/svg+xml">
+                                    <img src="assets/img/header/logoname.png" alt="logo" loading="lazy">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="header__consultation">
+                            <button class="get-consultation" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <div>Получить консультацию</div>
+                                <div class="circle">
+                                    <picture>
+                                        <source srcset="assets/img/header/arrow.webp" type="image/webp+xml">
+                                        <img src="assets/img/header/arrow.png" alt="arrow" loading="lazy">
+                                    </picture>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="header__navigation">
+                            <div class="header__languages">
+                                <div class="header__dropdown" style="z-index:1000000000">
+                                    <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-secondary dropdown-toggle">
+                                        <picture>
+                                            <source srcset="assets/img/header/ru.webp" type="image/webp+xml">
+                                            <img src="assets/img/header/ru.png" alt="ru">
+                                        </picture>
+                                        ru
+                                    </button>
+                                    <ul style="padding: 0;" aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/ua.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/ua.png" alt="ua">
+                                                </picture>
+                                                ua
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/en.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/en.png" alt="en">
+                                                </picture>
+                                                en
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/de.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/de.png" alt="pl">
+                                                </picture>
+                                                pl
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__menu">
+
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: none;">
+                                    Меню
+                                <div class="lines"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <section class="criminal-low">
+                    <span class="criminal-low-blue"></span>
+                    <div class="criminal-low-container">
+                        <h1 class="criminal-low-title">Диплом по уголовному праву</h1>
+                        <div class="criminal-low-img-wr">
+                            <img class="criminal-low-img" src="./assets/img/criminal-low/criminal-low-banner.webp" alt="criminal-low-banner">
+                        </div>
+                    </div>
+
+                    <article class="criminal-low-desc criminal-low-desc-first">
+                        <h2 class="criminal-low-desc-subtitle">ДИПЛОМНАЯ РАБОТА ПО УГОЛОВНОМУ ПРАВУ</h2>
+
+                        <p class="criminal-low-desc-text">И так, давайте рассмотрим, что же такого необычного в написание дипломов по праву. Как и в другой квалификационной работе, выполнение начинается с выбора темы.</p>
+
+                        <p class="criminal-low-desc-text">Совет от <span class="b-blue-text">only-student!</span> Припоминайте, на какую тему писали курсовую работу по уголовному праву, подбирайте актуальные темы по уголовному праву, таким образом, у вас будет хорошая теоретическая база.</p>
+
+                        <p class="criminal-low-desc-text"><span class="sm-blue-text">Готовые дипломные</span> работы по уголовному праву имеют структуру квалификационных работ, то есть она сложная. Подготовить план на утверждения учитывайте то, что разбитый на главы с параграфами.</p>
+
+                        <p class="criminal-low-desc-text">Выполняя <span class="sm-blue-text">дипломную работу</span> по юриспруденции лучше всего делать сравнение с международным правом. Таким образом, проведете параллель или даже исследование по выбранной теме научного проекта. Больше
+                            того, обязательно будет сопоставление с уголовным процессом.</p>
+                    </article>
+
+                    <div class="video_wrapper video_wrapper_full js-videoWrapper ">
+                        <iframe class="videoIframe js-videoIframe" src="criminal-low-video" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/G4cJ4wviwS8?autoplay=1&modestbranding=1&rel=0&hl=ru&showinfo=0&color=white"></iframe>
+                        <button class="videoPoster js-videoPoster"></button>
+                    </div>
+
+                    <article class="criminal-low-desc low-desc-sec">
+                        <h2 class="criminal-low-desc-subtitle">КАК НАПИСАТЬ ВВЕДЕНИЕ ДИПЛОМНОЙ РАБОТЫ</h2>
+
+                        <p class="criminal-low-desc-text">Введение дипломной работы — вступительная часть, в нем раскрываются, почему именно эта тема была выбрана студентом. Обратите внимание, что если у вас возникли сложности с подбором темы, авторы «Легко в учебе» помогут и с этим.
+                            Выбор должен быть обоснован актуальностью и новизной.</p>
+
+                        <p class="criminal-low-desc-text">Предмет и объект дипломной работы. Объект — это то, что именно рассматривается в дипломной работе, а вот предмет какую именно сторону вопроса анализируем.</p>
+
+                        <p class="criminal-low-desc-text">Степень изученности. Авторы <span class="b-blue-text">only-student</span> считают обязательным компонентом введения, ведь показывается, насколько хорошо разработан вопрос, если ли недостатки. Тут важно сделать перечень исследователей,
+                            на какие были сделаны сноски и в самой дипломной работе по уголовному праву.</p>
+
+                        <p class="criminal-low-desc-text">Цель и поставленные задачи. Цель дипломной работы показывает, что бы вы хотите получить в итоге написанной работы. Задачи показывают, что же было сделано для получения цели.</p>
+
+                        <p class="criminal-low-desc-text">Структура дипломной работы. Прописано количество глав, общее количество страниц и источников.</p>
+
+                        <p class="criminal-low-desc-text">Апробация результатов исследования. Результат проведенных исследований в дипломной работе.</p>
+                    </article>
+
+                    <div class="criminal-low-img-wr">
+                        <img class="criminal-low-img" src="./assets/img/criminal-low/criminal-low-banner.webp" alt="criminal-low-banner">
+                    </div>
+
+                    <article class="criminal-low-desc">
+                        <h2 class="criminal-low-desc-subtitle">ПОЧЕМУ ЗАКАЗЫВАЮТ ДИПЛОМНЫЕ РАБОТЫ НА САЙТЕ <span class="b-blue-text">ONLY-STUDENT</span></h2>
+                        <ol>
+                            <li class="criminal-low-desc-text">Уникальность письменной работы.</li>
+                            <li class="criminal-low-desc-text">Оформление согласно методическим рекомендациям.</li>
+                            <li class="criminal-low-desc-text">Грамотный подход.</li>
+                            <li class="criminal-low-desc-text">Логическое построение работы.</li>
+                            <li class="criminal-low-desc-text">Выполненная работа точно в срок.</li>
+                            <li class="criminal-low-desc-text">Подготовка презентации для защиты дипломной работы.</li>
+                            <li class="criminal-low-desc-text">Сопровождение до защиты.</li>
+                        </ol>
+                    </article>
+                    <span class="criminal-low-pink"></span>
+                </section>
+
+                <footer class="footer ">
+                    <div class="footer__wrapper row ">
+                        <div class="footer__payment col-md-4 ">
+                            <h2 class="footer__payment--title title ">Принимаем к оплате</h2>
+                            <div class="footer-left ">
+                                <div class="payments ">
+                                    <section class="payments-item-wr ">
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/visa.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/visa.png " alt="visa " loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/privat.png " type="image/webp+xml ">
+                                                <img src="assets/img/footer/privat.png " alt="privat" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/mastercard.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/mastercard.png " alt="mastercard" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item lg-footer-bank ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/world.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/world.png " alt="world" loading="lazy">
+                                            </picture>
+                                            <picture>
+                                                <source srcset="assets/img/footer/liqpay.webp " type="image/webp+xml ">
+                                                <img class="liqpay " src="assets/img/footer/liqpay.png " alt="liqpay" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture class="sm-footer-bank ">
+                                                <source srcset="assets/img/footer/world.webp " type="image/webp+xml ">
+                                                <img class="world-b " src="assets/img/footer/world.png " alt="world " loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+
+                                            <picture class="sm-footer-bank ">
+                                                <source srcset="assets/img/footer/liqpay.webp " type="image/webp+xml ">
+                                                <img class="liqpay " src="assets/img/footer/liqpay.png " alt="liqpay " loading="lazy">
+                                            </picture>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields col-md-8">
+                            <div class="fields-inner">
+                                <section class="footer__about col-md-6">
+                                    <h2 class="footer__about--title title">О Нас</h2>
+                                    <nav class="footer__about--body ">
+                                        <ul class="links">
+                                            <li><a href="# ">Статьи</a></li>
+                                            <li><a href="# ">Отзывы</a></li>
+                                            <li><a href="# ">Услуги</a></li>
+                                        </ul>
+                                        <ul class="other-links">
+                                            <li><a href="# ">Помощь с репетиторами</a></li>
+                                            <li><a href="# ">Помощь с учебными работами</a></li>
+                                            <li><a href="# ">Политика конфиденциальности</a></li>
+                                            <li><a href="# ">Договор публичной оферты</a></li>
+                                        </ul>
+                                    </nav>
+                                </section>
+                                <div class="footer__connect col-md-6">
+                                    <div class="footer__connect--title title">
+                                        <section class="feedback-link">
+                                            <span class="text">Связаться с нами</span>
+                                            <div class="popup">
+                                                <a href="#" class="feedback-social-link">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/burger_tg.svg" type="image/svg+xml">
+                                                        <img src="assets/img/footer/Vector (7).png" alt="enter icon">
+                                                    </picture>
+                                                    <span class="text ">Консультация в Telegram</span>
+                                                </a>
+                                                <a href="#" class="feedback-social-link ">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/burger-vb.svg" alt="viber" type="image/svg+xml ">
+                                                        <img src="assets/img/footer/vibersec.png" alt="enter icon ">
+                                                    </picture>
+                                                    <span class="text ">Консультация в Viber</span>
+                                                </a>
+                                                <a href="#" class="feedback-social-link">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/icon.png" alt="chat" type="image/svg+xml">
+                                                        <img src="assets/img/footer/icon.svg" alt="enter icon">
+                                                    </picture>
+                                                    <span class="text">Online-ЧАТ</span>
+                                                </a>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="footer__connect--body">
+                                        <ul class="links">
+                                            <li class="d-flex">
+                                                <a href="mailto:support@only-student.com" style="font-weight: 300" class="mail-link p-0">support@only-student.com</a>
+                                                <picture>
+                                                    <source srcset="assets/img/footer/mail.svg" type="image/svg+xml">
+                                                    <img src="assets/img/footer/mail.png" alt="mail">
+                                                </picture>
+                                            </li>
+                                            <li><a href="# " class="footer-partner ">Исполнителям и Партнерам</a></li>
+                                        </ul>
+                                        <button>
+                                        <div>Регистрация</div>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyrighting row ">
+                        © 2017-2022 «only-student». Все права защищены.
+                    </div>
+                </footer>
+                <div id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade">
+                    <div class="modal-dialog" style="background-color: black; height: 100%;">
+                        <div class="modal-content" style="border: none;">
+                            <div class="side-panel" style="background-color: black;">
+                                <div class="side-panel-inn">
+                                    <div class="d-flex justify-content-center align-items-baseline header__languages-wrapper">
+                                        <div class="header__languages">
+                                            <div class="header__dropdown">
+                                                <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-secondary dropdown-toggle modal-r">
+                                                <picture>
+                                                    <source srcset="assets/img/header/ru.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/ru.png" alt="ru">
+                                                </picture>
+                                                RU
+                                            </button>
+                                                <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/ua.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/ua.png" alt="ua">
+                                                            </picture>
+                                                            ua
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/en.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/en.png" alt="en">
+                                                            </picture>
+                                                            en
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/de.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/de.png" alt="pl">
+                                                            </picture>
+                                                            pl
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-header">
+                                            <h5 id="exampleModalLabel" class="modal-title">МEHЮ</h5> <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"><img src="assets/img/header/close.webp" alt="close"></button>
+                                        </div>
+                                    </div>
+                                    <div class="panel-decor-wr" style="background-color: black;">
+                                        <div class="reg-link-wr-out">
+                                            <div class="reg-link-wr">
+                                                <a href="#" class="login">Войти</a>/<a href="#" class="registration">Регистрация</a>
+                                            </div>
+                                        </div>
+                                        <ul class="burger-menu-wr">
+                                            <li><a href="#">Договор публичной оферты</a></li>
+                                            <li><a href="#">Политика конфиденциальности</a></li>
+                                            <li><a href="#">Отзывы</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="burger-contact-wr">
+                                        <div class="burger-modal-wp">
+                                            <div class="burger-contact-title" style="margin: 40px auto 10px auto;">Связаться с нами</div>
+                                        </div>
+                                        <div class="burger-social-link-wr">
+                                            <a href="mailto:support@legko-v-uchebe.com" class="burger-mail">support@only-student.com</a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/burger_tg.svg" type="image/svg+xml">
+                                                    <img src="assets/img/footer/Vector (7).png" alt="enter icon">
+                                                </picture>
+                                                <span class="text">Консультация в Telegram</span>
+                                            </a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/burger-vb.svg" alt="viber" type="image/svg+xml">
+                                                    <img src="assets/img/footer/Vector (6).png" alt="enter icon">
+                                                </picture>
+                                                <span class="text">Консультация в Viber</span>
+                                            </a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/chat.webp" alt="viber" type="image/webp+xml">
+                                                    <img class="chat-base" src="assets/img/footer/chat.png" alt="chat">
+                                                </picture>
+                                                <span class="text">Online-ЧАТ</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal consultation fade" style="width: 100%; background-color: #01000F;" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog consultation">
+                        <div class="modal-content consultation" style="background-color: transparent;">
+                            <div class="modal-header consultation">
+                            </div>
+                            <div class="modal-body consultation top">
+                                <h3>Быстрое оформление заказа</h3>
+                                <ul>
+                                    <li class="modal-tab-active-first active-tab">Шаг 1 - </li>
+                                    <li class="modal-tab-active-second">Шаг 2</li>
+                                </ul>
+                                <div class="tabs__content test1 active">
+                                    <div class="modal-title consultation test1 active" id="staticBackdropLabel">
+                                        <h2>У Вас уже есть аккаунт? Нажмите</h2>
+                                        <button>
+                                            <div>Вход</div>
+                                        </button>
+                                    </div>
+                                    <div class="modal-form-group">
+                                        <div class="field">
+                                            <label for="name">Как к Вам обращаться?</label>
+                                            <input class="modal-form-input" type="text" id="name">
+                                        </div>
+                                        <div class="field">
+                                            <label for="email">Адрес электронной почты</label>
+                                            <input class="modal-form-input" type="text" id="email">
+                                        </div>
+                                        <div class="field">
+                                            <label for="tel">Номер телефона*</label>
+                                            <input class="modal-form-input" type="nubmer" id="tel">
+                                        </div>
+                                        <label class="modal-label-subtitle" for="tel">*номер телефона является паролем</label>
+                                        <div class="modal-farther">
+                                            <button type="button" class="modal-second-step" disabled="disabled" id="staticBackdropBtn" data-bs-target="#staticBackdrop">
+                                                Далее
+                                            <div class="circle">
+                                                <picture>
+                                                    <source aria-disabled srcset="assets/img/header/Vector 94.webp" alt="arrow" loading="lazy" type="image/webp+xml">
+                                                    <img aria-disabled src="assets/img/header/Vector 94.png" alt="arrow" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </button>
+                                        </div>
+                                        <label class="label-check">
+                                        <input class="label-check-inp" type='checkbox' checked>
+                                        <span></span>
+                                        <div class="check">«Ознакомлен с правилами <a href="#">политики конфиденциальности<a> и согласен об использовании файлов cookie»</div>
+                                    </label>
+                                    </div>
+                                </div>
+                                <div class="tabs__content test2">
+                                    <div class="order-select-group">
+                                        <button class="learning-order-select active-btn">
+                                            Учеба/решение
+                                        </button>
+                                        <button class="teachers-order-select">
+                                            Репетиторы/Преподаватели
+                                        </button>
+                                    </div>
+                                    <div class="learning">
+                                        <div class="tabs__content first-part-of-modal active">
+                                            <span class="learning__subtitle">
+                                                <p class="new-line">В этой группе можно заказать: курсовую, дипломную, магистерскую, реферат, онлайн</p> помощь, решение задач, статьи и другие типы работ...
+                                            </span>
+                                            <pre class="learning__subtitle-formated">
+                                            В этой группе можно заказать: курсовую, дипломную,
+                                                магистерскую, реферат, онлайн помощь, решение
+                                                            задач, статьи и другие типы работ...
+                                            </pre>
+                                            <pre class="learning__subtitle-formated-s">
+                                                В этой группе можно заказать:
+                                            курсовую, дипломную, магистерскую,
+                                            реферат, онлайн помощь, решение
+                                            задач, статьи и другие типы работ...
+                                        </pre>
+                                            <p class="learning__title">Все поля обязательны для заполнения</p>
+                                        </div>
+                                        <div class="tabs__content first-part-of-modal active">
+                                            <form class="learning__form">
+                                                <div class="form-border"></div>
+                                                <fieldset>
+                                                    <label class="label-topic" for="topic" id="label-topic">Напишите тему работы</label>
+                                                    <div class="textarea-wrapper">
+                                                        <textarea maxlength="250" style="resize: vertical;" rows="15" cols="50" id="topic" name="topic" rows="5" placeholder="Максимально напишите что знаете, Например: Процесс национального строительства: сущность и характер...(МАКСИМАЛЬНО 250 символов)&#10;Осталось 250 символов"></textarea>
+                                                        <p><span style="font-size: 13px; margin: 0 0 0 10px;" id="leftChars"></span></p>
+                                                    </div>
+                                                    <label class="label-description" for="description" id="desc-title">Напишите описание работы</label>
+                                                    <div class="textarea-wrapper">
+                                                        <textarea maxlength="1000" wrap="soft" style="resize: vertical;" class="description" style="padding-left: 12px;" id="description" name="description" placeholder="Максимально напишите что знаете, Например: Предмет: Этнополитология, план где-то 4-5 пунктов, шрифт стандартный - Times New Roman 14. уникальность 70-80% на каком плагиате будет проверка если знаете, по стандарту делаем на ЕТХТ... (МАКСИМАЛЬНО 1000 символов&#10;&#10;&#10;&#10;Осталось 1000 символов"></textarea>
+                                                        <p><span style="font-size: 13px; margin: 0 0 0 10px;" id="leftCharsDesc"></span></p>
+                                                    </div>
+                                                    <div class="learning__input-price">
+                                                        <label for="price">На какую стоимость рассчитываете?</label>\
+                                                        <textarea style="overflow: hidden;" class="learning__textarea" name="price" id="" cols="2" placeholder="Например: сумма которую&#10;    Вы готовы потратить"></textarea>
+                                                    </div>
+                                                    <div class="learning__form-group d-flex">
+                                                        <div class="group-select-learning">
+                                                            <select class="learning__select s-teacher" name="work" id="work-learning">
+                                                                <option   value="typeofwork">Выберите тип работы</option>
+                                                                <option value="smthelse">...</option>
+                                                                <option value="smthelse2">...</option>
+                                                            </select>
+                                                            <select class="learning__select" name="subject" id="subject">
+                                                                <option selected value="Выберите предмет работы">Выберите предмет работы</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="group-input-learning">
+                                                            <div class="workload-block">
+                                                                <label class="mt-0" for="workload">Введите объём работы</label>
+                                                                <textarea class="learning__textarea" style="overflow: hidden; padding-left: 20px; padding-top: 17px;" type="text" name="workload" placeholder="Например: 10-12 страниц"></textarea>
+                                                            </div>
+                                                            <div class="completion-block">
+                                                                <label class="mt-0" for="dateofcompletion">Дата выполнения работы</label>
+                                                                <textarea style="overflow: hidden;" class="learning__textarea" name="price" id="" cols="2" placeholder="   Выберите дату на когда &#10;должна быть готова работа"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                                <div class="additional-info">
+                                                    <select class="learning__select" name="plagiat" id="plagiat">
+                                                    <option selected autocomplete="off" value="10085091" style="white-space: -wrap;">Выберите нужный плагиат, если не знаете, выберите ”Не знаю какой”</option>
+                                                    <option  value="Выберите предмет работы">Не знаю какой</option>
+                                                    <option  value="Выберите предмет работы">Text.ru</option>
+                                                    <option  value="Выберите предмет работы">Advego Plagiatus</option>
+                                                    <option  value="Выберите предмет работы">Etxt Антиплагиат(AntiPlagiarism.NET)</option>
+                                                    <option  value="Выберите предмет работы">Unicheck</option>
+                                                    <option  value="Выберите предмет работы">Antiplagiat.ru</option>
+                                                    <option  value="Выберите предмет работы">Антиплагиат ВУЗ</option>
+                                                    <option  value="Выберите предмет работы">Plagiarisma</option>
+                                                    <option  value="Выберите предмет работы">Strikeplagiarism</option>
+                                                </select>
+                                                    <div class="learning__input-wrapper mr-2">
+                                                        <span class="input-wrapper-title">Нужно утверждать план?</span>
+                                                        <div class="learning__input-inner">
+                                                            <label class="learning__label mt-2">
+                                                        <input type="radio" name="radio-button" value="yes" />
+                                                        <p class="approve-agreement" style="color: #000;">Да</p>
+                                                    </label>
+                                                            <label class="learning__label mt-0">
+                                                        <input checked type="radio" name="radio-button" value="no" />
+                                                        <p class="approve-agreement" style="color: #000; margin-top: 5px;">Нет</p>
+                                                    </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="upload-file-desc">
+                                                    <span>Методичку, План, Фото, Аудиозапись...</span>
+                                                    <a class="upload-file-link" href="#">Загрузить файлы</a>
+                                                </div>
+                                                <button class="create-order-btn" type="submit">Создать заказ</button>
+                                            </form>
+                                        </div>
+                                        <section class="tabs__content second-part-of-modal">
+                                            <span class="learning__subtitle teacher">
+                                                В этой группе можно выбрать репетитора по многим предметам: английский, украинский, иностранные языки, подготовка к ЗНО, математика, история и другие предметы 
+                                            </span>
+                                            <p class="learning__title">Все поля обязательны для заполнения</p>
+                                            <form class="learning__form teacher">
+                                                <div class="form-border teacher"></div>
+                                                <fieldset class="fieldset-teacher">
+                                                    <label class="form__label-teacher" id="label-teacher" for="descriptionteacher">Описание работы</label>
+                                                    <div class="textarea-wrapper">
+                                                        <textarea maxlength="1000" style="resize: vertical;" class="description teacher" id="descriptionteacher" name="descriptionteacher" placeholder="Максимально напишите что знаете, Например: Предмет: Этнополитология, план где-то 4-5 пунктов, шрифт стандартный - Times New Roman 14. уникальность 70-80% на каком плагиате будет проверка если знаете, по стандарту делаем на ЕТХТ... (МАКСИМАЛЬНО 1000 символов&#10;&#10;&#10;&#10;Осталось 1000 символов"></textarea>
+                                                        <p><span style="font-size: 13px; margin: 0 0 0 10px; " id="leftCharsTeach"></span></p>
+                                                    </div>
+
+                                                    <div class="learning__form-group teacher d-flex">
+                                                        <div class="learning__form-select-wrap">
+                                                            <select class="learning__select" name="work" id="work">
+                                                                <option selected value="type-of-work ">Выберите предмет</option>
+                                                            </select>
+                                                            <select class="learning__select" name="subject" id="subject-teacher">
+                                                                <option selected value="level ">Выберите уровень подготовки</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="learning-inner-level-p d-flex align-items-center">
+                                                            <div class="price-expectation">
+                                                                <label class="learning__label workload " for="workload ">На какую стоимость рассчитываете?</label>
+                                                                <textarea style="overflow: hidden" class="learning__textarea" name="workload" id="" cols="2" placeholder=" Например: сумма которую&#10; Вы готовы тратить за 1 час "></textarea>
+                                                            </div>
+
+                                                            <div class="date-of-lesson">
+                                                                <label class="learning__label completion " for="dateofcompletion ">Дата, время на когда Вам удобно заниматься?</label>
+                                                                <textarea style="overflow: hidden" class="learning__textarea" name="dateofcompletion" id="" cols="2" placeholder=" Выберите дату на когда&#10; должен быть Онлайн урок "></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                                <div class="upload-file-desc ">
+                                                    <span>Задание, фото, требования...</span>
+                                                    <a class="upload-file-link " href="# ">Загрузить файлы</a>
+                                                </div>
+                                                <button class="create-order-btn" type="submit">Создать заказ</button>
+                                            </form>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+<script src="assets/js/headerMenuToggle.js"></script>
+<script src="assets/js/headerModal.js "></script>
+<script src="assets/js/scrolltop.js"></script>
+<script src="assets/js/criminal-low.js"></script>
+<script src="assets/js/preload.js"></script>
+
+
+</html>

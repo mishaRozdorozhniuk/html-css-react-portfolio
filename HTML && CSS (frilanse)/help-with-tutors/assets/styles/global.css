@@ -1,0 +1,92 @@
+html {
+  font-size: 8px;
+}
+#__nuxt {
+  overflow-x: hidden;
+}
+body {
+  background-color: #01000f;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  outline: unset;
+  border: unset;
+}
+
+a {
+  text-decoration: unset;
+}
+li {
+  text-decoration: unset;
+}
+
+blockquote,
+body,
+dd,
+dl,
+figcaption,
+figure,
+h1,
+h2,
+h3,
+h4,
+li,
+ol[class],
+p,
+ul[class] {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ol[class],
+ul[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+a {
+  text-decoration: unset;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    -webkit-animation-duration: NaNs !important;
+    animation-duration: NaNs !important;
+    -webkit-animation-iteration-count: 1 !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: NaNs !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Media */
+@media (max-width: 550px) {
+  html {
+    font-size: 6px !important;
+  }
+}

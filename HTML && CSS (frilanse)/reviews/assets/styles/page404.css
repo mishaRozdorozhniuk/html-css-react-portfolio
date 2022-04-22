@@ -1,0 +1,282 @@
+.not-found {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+
+/* .logo {
+    background-image: url("../img/page404/not-found-img.svg");
+    height: 400px;
+    width: 400px;
+} */
+
+.not-found-title {
+    font-family: 'Russo One';
+    font-weight: normal;
+    font-size: 288px;
+    color: #000;
+    letter-spacing: 0.13em;
+    text-shadow: 0px 0px 3px rgb(0 207 255), 0px 0px 12px rgb(0 209 255 / 96%), 0px 0px 11px rgb(0 209 255), -1px 0px 1px rgb(0 209 255 / 50%)
+}
+
+.not-found-photo {
+    position: absolute;
+    left: 136px;
+    height: 458px;
+}
+
+.not-found-line-photo {
+    position: absolute;
+    width: 728px;
+    left: -69px;
+    margin-bottom: 95px;
+}
+
+.not-found-line-photo-sec {
+    position: absolute;
+    width: 763px;
+    left: -71px;
+}
+
+.not-found-line-photo-sec {
+    position: absolute;
+    left: -40px;
+}
+
+.not-found-error {
+    font-family: "M PLUS 1p", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 88px;
+}
+
+.not-found-inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 482px;
+}
+
+.not-found-inner-btn button {
+    font-family: "M PLUS 1p", sans-serif;
+    padding: 30px 14px 29px 25px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    background: #010714;
+    border: 1px solid #F6E3FF;
+    box-shadow: -2px -2px 10px rgba(0, 209, 255, 0.8), 2px 2px 10px rgba(0, 209, 255, 0.8), 2px -2px 10px rgba(0, 209, 255, 0.8), -2px 2px 10px rgba(0, 209, 255, 0.8);
+    border-radius: 40px;
+    color: white;
+    font-size: 2.25em;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.not-found-inner-btn button:hover {
+    background: #01576A;
+    border: 1px solid #F6E3FF;
+    box-shadow: -2px -2px 10px rgba(0, 209, 255, 0.8), 2px 2px 10px rgba(0, 209, 255, 0.8), 2px -2px 10px rgba(0, 209, 255, 0.8), -2px 2px 10px rgba(0, 209, 255, 0.8);
+}
+
+.not-found-inner-btn button:active {
+    background: #003945;
+    border: 1px solid #F6E3FF;
+    box-shadow: -2px -2px 10px rgba(0, 209, 255, 0.8), 2px 2px 10px rgba(0, 209, 255, 0.8), 2px -2px 10px rgba(0, 209, 255, 0.8), -2px 2px 10px rgba(0, 209, 255, 0.8);
+}
+
+.not-found-inner-btn button .circle {
+    position: relative;
+    right: -21px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #00D1FF;
+    box-shadow: -2px 2px 10px rgba(0, 209, 255, 0.6), 2px -2px 10px rgba(0, 209, 255, 0.6), -2px -2px 10px rgba(0, 209, 255, 0.6), -2px 2px 10px rgba(0, 209, 255, 0.6);
+}
+
+.not-found-inner-btn button .circle img {
+    position: absolute;
+    top: 40%;
+    right: 32%;
+}
+
+.not-found-inner-btn button:after {
+    position: absolute;
+    right: 0;
+    width: 62px;
+    height: 62px;
+    background: #b61bff;
+    box-shadow: -2px 2px 10px rgba(182, 27, 255, 0.6), 2px -2px 10px rgba(182, 27, 255, 0.6), -2px -2px 10px rgba(182, 27, 255, 0.6), -2px 2px 10px rgba(182, 27, 255, 0.6);
+}
+
+.not-found {
+    padding-top: 310px;
+    padding-bottom: 299px;
+    height: 1200px;
+}
+
+.title-elipce-pink-not-found {
+    background: radial-gradient(58.98% 58.98% at 49.94% 56.41%, rgba(255, 0, 229, 0.42) 14.59%, rgba(2, 1, 27, 0.6) 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: blur(79px);
+    transform: rotate( 56.94deg);
+    position: absolute;
+    width: 569px;
+    height: 478px;
+    left: -528px;
+    top: 214px;
+    display: block;
+}
+
+.title-elipce-pink-not-found-blue {
+    background: radial-gradient(58.98% 58.98% at 49.94% 56.41%, rgba(255, 0, 229, 0.42) 14.59%, rgba(2, 1, 27, 0.6) 100%);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    filter: blur(79px);
+    transform: rotate( 56.94deg);
+    position: absolute;
+    width: 569px;
+    height: 478px;
+    left: 564px;
+    top: -404px;
+    display: block;
+    background: radial-gradient(58.98% 58.98% at 49.94% 56.41%, rgba(0, 209, 255, 0.6) 14.59%, rgba(2, 34, 40, 0.6) 100%);
+}
+
+@media (max-width: 768px) {
+    .not-found-title {
+        font-size: 200px;
+    }
+    .not-found-photo {
+        left: 182px;
+        height: 534px;
+        width: 205px;
+    }
+    .not-found-line-photo-sec {
+        left: 87px;
+        margin-bottom: 197px;
+        width: 527px;
+    }
+    .not-found-error {
+        font-size: 30px;
+    }
+    .not-found-line-photo {
+        width: 520px;
+        left: 41px;
+        margin-bottom: 274px;
+    }
+    .not-found {
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 836px;
+    }
+    .title-elipce-pink-not-found-blue {
+        filter: blur(98px);
+        transform: rotate(56.94deg);
+        width: 368px;
+        height: 478px;
+        left: 419px;
+        top: -230px;
+        z-index: -1;
+    }
+    .title-elipce-pink-not-found {
+        filter: blur(113px);
+        width: 462px;
+        height: 478px;
+        left: -334px;
+        top: 147px;
+        z-index: -1;
+    }
+    .not-found-inner-btn button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 600px) {
+    .not-found-title {
+        font-size: 180px;
+    }
+    .not-found {
+        width: 416px;
+    }
+    .not-found-line-photo-sec {
+        left: -40px;
+    }
+    .not-found-line-photo {
+        left: -41px;
+    }
+    .not-found-photo {
+        left: 123px;
+    }
+    .not-found-line-photo-sec {
+        left: 8px;
+        margin-bottom: 223px;
+        width: 466px;
+    }
+    .not-found-photo {
+        left: 92px;
+    }
+    .not-found-photo {
+        left: 106px;
+        height: 534px;
+        width: 174px;
+    }
+    .not-found-line-photo {
+        width: 460px;
+        left: -41px;
+        margin-bottom: 274px;
+    }
+}
+
+@media (max-width: 375px) {
+    .not-found-inner-btn button {
+        font-size: 18px;
+    }
+    .not-found-title {
+        font-size: 120px;
+    }
+    .not-found {
+        width: 368px;
+    }
+    .not-found {
+        padding-top: 178px;
+        height: 775px;
+        padding-bottom: 0;
+    }
+    .not-found-photo {
+        left: 115px;
+        height: 495px;
+        width: 119px;
+    }
+    .not-found-line-photo-sec {
+        left: 61px;
+        margin-bottom: 300px;
+        width: 300px;
+    }
+    .not-found-line-photo {
+        width: 298px;
+        left: 26px;
+        margin-bottom: 320px;
+    }
+    .not-found-error {
+        font-size: 20px;
+    }
+    .title-elipce-pink-not-found-blue {
+        width: 321px;
+        height: 478px;
+        left: 255px;
+        top: -308px;
+        z-index: -1;
+    }
+}

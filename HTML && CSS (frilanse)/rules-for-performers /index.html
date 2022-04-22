@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+    <title>Only-student</title>
+    <meta name="description" content="Наша цель, успешный студент и заветное «сессия закрыта». Все материалы проверены экспертами, что позволит защитить курсовую работу, решить задачу, написать магистерскую диссертацию с учетом требований.">
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/styles/fonts.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/styles/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/header-modal.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/preload.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/help-with-sudies.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/performers.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+    <div id="loading">
+        <div class="container-preload">
+            <div class="dash uno"></div>
+            <div class="dash dos"></div>
+            <span class="preload-articles-elipce"></span>
+            <div class="dash tres"></div>
+            <div class="dash cuatro"></div>
+            <span class="preload-articles-elipce-pink"></span>
+        </div>
+    </div>
+    <div id="__nuxt">
+        <div id="__layout">
+            <div>
+                <header class="header">
+                    <div class="header__wrapper">
+                        <div class="header__wrapper_logo">
+                            <a href="index.html" class="header_logo-link">
+                                <picture>
+                                    <source srcset="assets/img/header/logo.webp" type="image/webp+xml">
+                                    <img src="assets/img/header/logo.png" alt="logo" loading="lazy">
+                                </picture>
+                                <picture class="header-logo-name">
+                                    <source srcset="assets/img/header/logoname.svg" type="image/svg+xml">
+                                    <img src="assets/img/header/logoname.png" alt="logo" loading="lazy">
+                                </picture>
+                            </a>
+                        </div>
+                        <div class="header__consultation">
+                            <button class="get-consultation" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <div>Получить консультацию</div>
+                                <div class="circle">
+                                    <picture>
+                                        <source srcset="assets/img/header/arrow.webp" type="image/webp+xml">
+                                        <img src="assets/img/header/arrow.png" alt="arrow" loading="lazy">
+                                    </picture>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="header__navigation">
+                            <div class="header__languages">
+                                <div class="header__dropdown" style="z-index:1000000000">
+                                    <button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-secondary dropdown-toggle">
+                                        <picture>
+                                            <source srcset="assets/img/header/ru.webp" type="image/webp+xml">
+                                            <img src="assets/img/header/ru.png" alt="ru">
+                                        </picture>
+                                        ru
+                                    </button>
+                                    <ul style="padding: 0;" aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/ua.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/ua.png" alt="ua">
+                                                </picture>
+                                                ua
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/en.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/en.png" alt="en">
+                                                </picture>
+                                                en
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown-item">
+                                                <picture>
+                                                    <source srcset="assets/img/header/de.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/de.png" alt="pl">
+                                                </picture>
+                                                pl
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="header__menu">
+
+                                <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: none;">
+                                    Меню
+                                <div class="lines"></div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+
+                <section class="rules-performens">
+                    <div class="rules-performens-container">
+                        <h1 class="rules-title">Правила для исполнителей</h1>
+                        <h2 class="rules-subtitle">ИСПОЛНИТЕЛЯМ</h2>
+                        <p> Предлагаем сотрудничество по оказанию образовательных услуг. В нашей команде: доктора и кандидаты наук, преподаватели, целеустремленные люди, которые владеют знаниями и постоянно повышают свою квалификацию. Для специалистов мы
+                            предлагаем полную или частичную занятость, своевременную выплату гонорара. Не имеет значения Ваше место проживания – все взаимодействие с нами происходит в режиме онлайн посредством функционального «Личного кабинета» и программ
+                            для общения через Интернет. Ниже основные правила взаимодействия с образовательным центром и ссылка на полный договор оферты. Основные требования:</p>
+                        <ul>
+                            <li>опыт по сбору материала, обработке информации</li>
+                            <li>опыт работы с письменными работами (контрольная, курсовая, реферат, дипломная, магистерская, тезисы и другие студенческие работы) </li>
+                            <li>знание типов работ для студентов и их оформление</li>
+                            <li>умение работать с программами проверки уникальности текста</li>
+                            <li>выполнение проекта и необходимых доработок</li>
+                            <li>быть на связи (телефон, электронная почта, мессенджеры, кабинет исполнителя)</li>
+                            <li>готовность к сотрудничеству</li>
+                            <li>придерживаться установленных сроков</li>
+                            <li> ответственность.</li>
+                        </ul>
+                        <p> Если Вас заинтересовало наше сотрудничество, добро пожаловать в команду!</p>
+
+                        <h2> 1. ПРАВИЛА ИСПОЛЬЗОВАНИЯ СЕРВИСА: </h2>
+                        <ol>
+
+                            <li>В разделе «ПРОФИЛЬНЫЕ» находятся актуальные в настоящее время заказы по Вашему профилю, указанному при регистрации, (добавить или убрать лишние предметы возможно в редактировании профиля).</li>
+                            <li>В разделе «НАЙТИ ВСЕ» находятся доступные заказы в данный момент для всего штата исполнителей компании. </li>
+                            <li>Разделы проектов являются общими для всех исполнителей. </li>
+                            <li>Проекты с пометкой «ПРОФИЛЬНЫЕ», «НАЙТИ ВСЕ» необходимо оценить, то есть предложить свою цену за проект. </li>
+                            <li>На сервисе действует аукционная система (БИРЖА), другие исполнители видят Вашу ставку, в приоритете меньшая ставка и рейтинг! </li>
+                            <li>Если Вы первым согласились выполнить проект и менеджер одобрил Вашу ставку – он станет недоступен для остальных участников. </li>
+                            <li>Чем дешевле Вы оцениваете проект, тем их больше попадает к Вам в работу. </li>
+                            <li>Доступна возможность подключить в профиле чат-бот Telegram для рассылки уведомлений.</li>
+                        </ol>
+
+                        <h2>2. ПРОВЕДЕНИЕ ВЫПЛАТ: </h2>
+                        <ol>
+                            <li>Стоимость за проект определяет исполнитель самостоятельно, эту же сумму будет выплачено по закрытию проекта через срок указанный в п.2.2. (за минусом штрафов при их наличии). </li>
+                            <li>Оплата за выполненные работы производится через 15, 20 и 30 дней после загрузки готового заказа. Через 15 дней – когда автором выполнено 40 заказов; 20 дней – выполнено 20 заказов; 30 дней – сразу после регистрации. (Новые
+                                исполнители – через 30 дней!). В случае возращения заказа на доработку отсчет срока начинается от дня последней закрытой доработки.</li>
+                            <li>За доработки оплата не предусмотрена. Исключение составляют случаи, когда правки выходят за рамки ранее поставленного заказчиком задания. </li>
+                            <li>В том случае, когда на доработке у автора три и более заказов, выплаты замораживаются до выполнения доработок (рассматривает администрация). </li>
+                        </ol>
+
+                        <h2> 3. ОБЩЕНИЕ ЧЕРЕЗ ЧАТ: </h2>
+                        <ol>
+                            <li>Автору запрещается передавать заказчику свою контактную информацию (телефон, Email и другие ссылки), стоимость за проект в целом или его части, доработку работы, дополнительные задания. В случаи нарушения Ваш аккаунт будет
+                                заблокирован, без возмещения выплат (рассматривает администрация). </li>
+                            <li>Запрещается передавать готовые части работ через ЧАТ напрямую заказчику, штраф -50% Вашей ставки. </li>
+                            <li>Запрещается игнорировать (не отвечать) на письма и вопросы заказчика, менеджера, администрации. Штраф на Ваш аккаунт, или он будет заблокирован с возмещением выплат (рассматривает администрация). </li>
+                        </ol>
+                        <h2> 4. ВЫПОЛНЕНИЕ ЗАКАЗОВ: </h2>
+                        <ol>
+
+                            <li>Необходимо присылать части работы в указанный срок сдачи. </li>
+                            <li>В случае нарушения срока и отказа выходить на связь с менеджером, Ваш аккаунт будет заблокирован либо нанесен штраф (рассматривает администрация). </li>
+                            <li>Запрещается выполнять работу без утверждения плана заказчиком (кроме тех случаев, когда план утвержден и прикреплен к заказу или его утверждать не нужно). </li>
+                            <li>В случае отказа от работы, без предварительного предупреждения менеджера за несколько дней до ее сдачи, которую Вы подтвердили как выполняемую, Вам будет начислен штраф, возможна блокировка аккаунта (рассматривает администрация).
+                            </li>
+                        </ol>
+
+                        <h2> 5. РАБОТЫ НЕОБХОДИМО ЗАГРУЖАТЬ ПО ЧАСТЯМ СЛЕДУЮЩИМ ОБРАЗОМ: </h2>
+                        <ul>
+                            <li>план (если работа нуждается в его составлении)</li>
+                            <li>половина работы</li>
+                            <li>готовая работа</li>
+                            <li>проверка на плагиат (отчет по уникальности работы программы сервиса eTXT, если заказчиком не было указано другая программа для проверки).</li>
+                        </ul>
+                        <p>В случае некачественного выполнения заказа (высокий уровень плагиата, ошибки в расчетах, несоответствие заданию и методическим требованиям) работа отправится на доработку. </p>
+
+                        <h2> 6. ШТРАФЫ ЗА НЕНАДЛЕЖАЩЕЕ ВЫПОЛНЕНИЕ РАБОТ, СРЫВ СРОКОВ, НЕКАЧЕСТВЕННОЕ ВЫПОЛНЕНИЕ РАБОТЫ: </h2>
+                        <ol>
+                            <li>В случае если при выполнении проекта Вы нарушили срок и не выходите на связь, менеджер снимет с Вас заказ, Система автоматически выпишет штраф на Ваш аккаунт или он будет заблокирован без возмещений выплат. (рассматривает администрация)
+                            </li>
+                            <li>В случае, если Вам передан заказ в работу, по нему не было никаких изменений по требованиям, и Вы от него отказываетесь, Система автоматически выпишет штраф на Ваш аккаунт (касается авторов, у которых больше 10 заказов выполненных)
+                                (рассматривает администрация)
+                            </li>
+                            <li>В случае если Вам передан заказ в работу, по нему не было никаких изменений по требованиям, и Вы от него отказываетесь, Ваш аккаунт будет заблокирован (касается новых авторов, у которых меньше 10 заказов выполненных) Так же
+                                если в течении 6 часов Вы не подтвердили заказ в работу аккаунт будет заблокирован (рассматривает администрация) </li>
+                            <li>За сдачу некачественной работы, неверно оформленной система автоматически выпишет штраф на Ваш аккаунт, или он будет заблокирован без возмещений выплат. (рассматривает администрация) </li>
+                            <li>Если Вы отказались от доработки (даже если доработка выходит за рамки изначально поставленных задач без предварительной договоренности), то система автоматически снимет полную оплату данного заказа, если по данному заказу уже
+                                произведена оплата, Система автоматически снимет стоимость с любого иного заказа (рассмотрению не подлежит, администрация) </li>
+                            <li>В компании политика гарантии сроков и качество выполненных работ, конфиденциальности. За просрочку заказов и за некачественную работу возвращаем заказчику процент от суммы заказов или всю стоимость работы. Все штрафы, снятия
+                                выплат, которые применены к авторам идут на возврат заказчикам. Разглашение информации о заказе (заказчике) или передача его третьим лицам несет за собой блокировку аккаунта без возмещения выплат и ответственность по законодательству.
+                                (рассмотрению не подлежит, администрация) </li>
+                        </ol>
+                        <h2 class="rules-subtitle-unique"> 7. УНИКАЛЬНОСТЬ РАБОТ: </h2>
+                        <ol>
+
+                            <li>Если в Вашей работе мы обнаружим некачественные методы повышения уникальности (замены символов на латинские, добавление невидимых символов, и т.д.), Ваш аккаунт будет заблокирован и для разблокировки данного аккаунта возможна
+                                только связь с администрацией.
+                            </li>
+                            <li>Запрещается загружать скопированные из интернета готовые работы и куски текста. </li>
+                            <li>Запрещается загружать работы, уникальность которых ниже стандартных требований (если в требованиях заказчиком указана уникальность выше, чем стандарт – необходимо добиваться требуемого процента на той программе, которую указал
+                                заказчик). Все работы рекомендуется проверять через бесплатный сервис https://www.etxt.ru/antiplagiat/ , если не указано заказчиков в проекте другой программы для проверки на уникальность. </li>
+                            <li>Работу необходимо делать согласно указанных заказчиком требований. </li>
+                            <li>Если заказчик не указал уровень уникальности работы, то работа должна быть выполнена по стандартам нашего ресурса. </li>
+                            <li>Стандарт </li>
+                        </ol>
+                    </div>
+                    <div class="scroll-table">
+
+                        <table class="rules-table">
+                            <tbody>
+                                <tr bgcolor="#7BE0F7" style="height: 144px;">
+                                    <td class="table-title">Дисциплины</td>
+                                    <td class="table-title">Контрольная</td>
+                                    <td class="table-title">Реферат</td>
+                                    <td class="table-title">Отчет по практике</td>
+                                    <td class="table-title">Курсовая</td>
+                                    <td class="table-title">Дипломная</td>
+                                    <td class="table-title">Эссе,
+                                        <p>Статья,</p> Аннотация, Рецензия</td>
+                                    <td class="table-title">Диссертация, Монография</td>
+                                </tr>
+                                <tr bgcolor="#2ECDF0">
+                                    <td>Экономические</td>
+                                    <td>30 и выше</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>50 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>80 и выше</td>
+                                    <td>80 и выше</td>
+                                </tr>
+                                <tr bgcolor="#7BE0F7">
+                                    <td>Гуманитарные</td>
+                                    <td>30 и выше</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>70 и выше</td>
+                                    <td>80 и выше</td>
+                                    <td>70 и выше</td>
+                                </tr>
+                                <tr bgcolor="#2ECDF0">
+                                    <td>Правовые</td>
+                                    <td>30 и выше</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>35 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>70 и выше</td>
+                                    <td>70 и выше</td>
+                                </tr>
+                                <tr bgcolor="#7BE0F7">
+                                    <td>Иностранные языки</td>
+                                    <td>неактуально</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>80 и выше</td>
+                                    <td>70 и выше</td>
+                                </tr>
+                                <tr bgcolor="#2ECDF0">
+                                    <td>Естественные</td>
+                                    <td>30 и выше</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>50 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>80 и выше</td>
+                                    <td>80 и выше</td>
+                                </tr>
+                                <tr bgcolor="#7BE0F7">
+                                    <td>Математические</td>
+                                    <td>неактуально</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>45 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>70 и выше</td>
+                                    <td>70 и выше</td>
+                                </tr>
+                                <tr bgcolor="#2ECDF0">
+                                    <td>Психология</td>
+                                    <td>30 и выше</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>80 и выше</td>
+                                    <td>80 и выше</td>
+                                </tr>
+                                <tr bgcolor="#7BE0F7">
+                                    <td>Педагогика</td>
+                                    <td>30 и выше</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>80 и выше</td>
+                                    <td>80 и выше</td>
+                                </tr>
+                                <tr bgcolor="#2ECDF0">
+                                    <td>Филология</td>
+                                    <td>30 и выше</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>70 и выше</td>
+                                    <td>70 и выше</td>
+                                </tr>
+                                <tr bgcolor="#7BE0F7">
+                                    <td>Программирование</td>
+                                    <td>неактуально</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>45 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>70 и выше</td>
+                                    <td>70 и выше</td>
+                                </tr>
+                                <tr bgcolor="#2ECDF0">
+                                    <td>Технические</td>
+                                    <td>неактуально</td>
+                                    <td>30 и выше</td>
+                                    <td>40 и выше</td>
+                                    <td>45 и выше</td>
+                                    <td>60 и выше</td>
+                                    <td>70 и выше</td>
+                                    <td>70 и выше</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="rules-performens-container">
+                        <p class="force-major-info">Бывают ситуации, когда невозможно достичь требуемой уникальности. В таком случае нужно аргументировать почему уникальность вышла ниже требуемой.</p>
+
+                        <h2> РЕПЕТИТОРАМ</h2>
+                        <p>Легко в учебе – это образовательный сервис, на котором получите учеников, которые подходят вам по следующим критериям: предмет, ставка, уровень подготовки.</p>
+                        <span> Основные требования:</span>
+                        <ul>
+                            <li>опыт преподавания</li>
+                            <li>умение работать с учениками</li>
+                            <li>подбирать материал и определять уровень знаний</li>
+                            <li>быть на связи (телефон, электронная почта, кабинет исполнителя)</li>
+                            <li>готовность к сотрудничеству</li>
+                            <li>придерживаться установленных сроков</li>
+                            <li>ответственность</li>
+                        </ul>
+                        <h2>1. ПРАВИЛА ИСПОЛЬЗОВАНИЯ СЕРВИСА:</h2>
+                        <ol>
+                            <li>В разделе «ПРОФИЛЬНЫЕ» находятся актуальные в настоящее время заказы по Вашему профилю, указанному при регистрации, (добавить или убрать лишние предметы возможно в редактировании профиля).</li>
+                            <li>В разделе «НАЙТИ ВСЕ» находятся доступные заказы в данный момент для всего штата исполнителей компании. </li>
+                            <li>Разделы проектов являются общими для всех исполнителей. </li>
+                            <li>Проекты с пометкой «ПРОФИЛЬНЫЕ», «НАЙТИ ВСЕ» необходимо оценить, то есть предложить свою цену за проект. </li>
+                            <li>На сервисе действует аукционная система (БИРЖА), другие исполнители видят Вашу ставку, в приоритете меньшая ставка и рейтинг! </li>
+                            <li>Если Вы первым согласились выполнить проект и менеджер одобрил Вашу ставку – он станет недоступен для остальных участников. </li>
+                            <li>Чем дешевле Вы оцениваете проект, тем их больше попадает к Вам в работу. </li>
+                            <li>Доступна возможность подключить в профиле чат-бот Telegram для рассылки уведомлений.</li>
+                        </ol>
+                        <h2>2. ПРОВЕДЕНИЕ ВЫПЛАТ:</h2>
+                        <ol>
+                            <li>Стоимость за проект определяет репетитор самостоятельно, эту же сумму будет выплачено по закрытию проекта через срок указанный в п.2.2. (за минусом штрафов при их наличии). </li>
+                            <li>Оплата за выполненные работы производится после проведения урока. </li>
+                            <li>ОБЩЕНИЕ ЧЕРЕЗ ЧАТ: </li>
+                            <li>Запрещается репетитору передавать заказчику свою контактную информацию (телефон, Email и другие ссылки), стоимость за проект в целом или его части, дополнительные задания. В случаи нарушения Ваш аккаунт будет заблокирован,
+                                без возмещения выплат (рассматривает администрация).</li>
+                            <li>Запрещается игнорировать (не отвечать) на письма и вопросы ученика, менеджера, администрации. Штраф на Ваш аккаунт, или он будет заблокирован с возмещением выплат (рассматривает администрация).</li>
+                            <li>Если Вы назначены репетитором, нужно связаться с учеником, обсудить условия проведения занятий (время, дату). </li>
+                        </ol>
+                    </div>
+                </section>
+
+                <footer class="footer ">
+                    <div class="footer__wrapper row ">
+                        <div class="footer__payment col-md-4 ">
+                            <h2 class="footer__payment--title title ">Принимаем к оплате</h2>
+                            <div class="footer-left ">
+                                <div class="payments ">
+                                    <section class="payments-item-wr ">
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/visa.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/visa.png " alt="visa " loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/privat.png " type="image/webp+xml ">
+                                                <img src="assets/img/footer/privat.png " alt="privat" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/mastercard.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/mastercard.png " alt="mastercard" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item lg-footer-bank ">
+                                            <picture>
+                                                <source srcset="assets/img/footer/world.webp " type="image/webp+xml ">
+                                                <img src="assets/img/footer/world.png " alt="world" loading="lazy">
+                                            </picture>
+                                            <picture>
+                                                <source srcset="assets/img/footer/liqpay.webp " type="image/webp+xml ">
+                                                <img class="liqpay " src="assets/img/footer/liqpay.png " alt="liqpay" loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+                                            <picture class="sm-footer-bank ">
+                                                <source srcset="assets/img/footer/world.webp " type="image/webp+xml ">
+                                                <img class="world-b " src="assets/img/footer/world.png " alt="world " loading="lazy">
+                                            </picture>
+                                        </div>
+                                        <div class="payments-item ">
+
+                                            <picture class="sm-footer-bank ">
+                                                <source srcset="assets/img/footer/liqpay.webp " type="image/webp+xml ">
+                                                <img class="liqpay " src="assets/img/footer/liqpay.png " alt="liqpay " loading="lazy">
+                                            </picture>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields col-md-8">
+                            <div class="fields-inner">
+                                <section class="footer__about col-md-6">
+                                    <h2 class="footer__about--title title">О Нас</h2>
+                                    <nav class="footer__about--body ">
+                                        <ul class="links">
+                                            <li><a href="# ">Статьи</a></li>
+                                            <li><a href="# ">Отзывы</a></li>
+                                            <li><a href="# ">Услуги</a></li>
+                                        </ul>
+                                        <ul class="other-links">
+                                            <li><a href="# ">Помощь с репетиторами</a></li>
+                                            <li><a href="# ">Помощь с учебными работами</a></li>
+                                            <li><a href="# ">Политика конфиденциальности</a></li>
+                                            <li><a href="# ">Договор публичной оферты</a></li>
+                                        </ul>
+                                    </nav>
+                                </section>
+                                <div class="footer__connect col-md-6">
+                                    <div class="footer__connect--title title">
+                                        <section class="feedback-link">
+                                            <span class="text">Связаться с нами</span>
+                                            <div class="popup">
+                                                <a href="#" class="feedback-social-link">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/burger_tg.svg" type="image/svg+xml">
+                                                        <img src="assets/img/footer/Vector (7).png" alt="enter icon">
+                                                    </picture>
+                                                    <span class="text ">Консультация в Telegram</span>
+                                                </a>
+                                                <a href="#" class="feedback-social-link ">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/burger-vb.svg" alt="viber" type="image/svg+xml ">
+                                                        <img src="assets/img/footer/vibersec.png" alt="enter icon ">
+                                                    </picture>
+                                                    <span class="text ">Консультация в Viber</span>
+                                                </a>
+                                                <a href="#" class="feedback-social-link">
+                                                    <picture>
+                                                        <source srcset="assets/img/footer/icon.png" alt="chat" type="image/svg+xml">
+                                                        <img src="assets/img/footer/icon.svg" alt="enter icon">
+                                                    </picture>
+                                                    <span class="text">Online-ЧАТ</span>
+                                                </a>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <div class="footer__connect--body">
+                                        <ul class="links">
+                                            <li class="d-flex">
+                                                <a href="mailto:support@only-student.com" style="font-weight: 300" class="mail-link p-0">support@only-student.com</a>
+                                                <picture>
+                                                    <source srcset="assets/img/footer/mail.svg" type="image/svg+xml">
+                                                    <img src="assets/img/footer/mail.png" alt="mail">
+                                                </picture>
+                                            </li>
+                                            <li><a href="# " class="footer-partner ">Исполнителям и Партнерам</a></li>
+                                        </ul>
+                                        <button>
+                                        <div>Регистрация</div>
+                                    </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__copyrighting row ">
+                        © 2017-2022 «only-student». Все права защищены.
+                    </div>
+                </footer>
+                <div id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" class="modal fade">
+                    <div class="modal-dialog" style="background-color: black; height: 100%;">
+                        <div class="modal-content" style="border: none;">
+                            <div class="side-panel" style="background-color: black;">
+                                <div class="side-panel-inn">
+                                    <div class="d-flex justify-content-center align-items-baseline header__languages-wrapper">
+                                        <div class="header__languages">
+                                            <div class="header__dropdown">
+                                                <button type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false" class="btn btn-secondary dropdown-toggle modal-r">
+                                                <picture>
+                                                    <source srcset="assets/img/header/ru.webp" type="image/webp+xml">
+                                                    <img src="assets/img/header/ru.png" alt="ru">
+                                                </picture>
+                                                RU
+                                            </button>
+                                                <ul aria-labelledby="dropdownMenuButton1" class="dropdown-menu">
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/ua.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/ua.png" alt="ua">
+                                                            </picture>
+                                                            ua
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/en.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/en.png" alt="en">
+                                                            </picture>
+                                                            en
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="dropdown-item">
+                                                            <picture>
+                                                                <source srcset="assets/img/header/de.webp" type="image/webp+xml">
+                                                                <img src="assets/img/header/de.png" alt="pl">
+                                                            </picture>
+                                                            pl
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="modal-header">
+                                            <h5 id="exampleModalLabel" class="modal-title">МEHЮ</h5> <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"><img src="assets/img/header/close.webp" alt="close"></button>
+                                        </div>
+                                    </div>
+                                    <div class="panel-decor-wr" style="background-color: black;">
+                                        <div class="reg-link-wr-out">
+                                            <div class="reg-link-wr">
+                                                <a href="#" class="login">Войти</a>/<a href="#" class="registration">Регистрация</a>
+                                            </div>
+                                        </div>
+                                        <ul class="burger-menu-wr">
+                                            <li><a href="#">Договор публичной оферты</a></li>
+                                            <li><a href="#">Политика конфиденциальности</a></li>
+                                            <li><a href="#">Отзывы</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="burger-contact-wr">
+                                        <div class="burger-modal-wp">
+                                            <div class="burger-contact-title" style="margin: 40px auto 10px auto;">Связаться с нами</div>
+                                        </div>
+                                        <div class="burger-social-link-wr">
+                                            <a href="mailto:support@legko-v-uchebe.com" class="burger-mail">support@only-student.com</a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/burger_tg.svg" type="image/svg+xml">
+                                                    <img src="assets/img/footer/Vector (7).png" alt="enter icon">
+                                                </picture>
+                                                <span class="text">Консультация в Telegram</span>
+                                            </a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/burger-vb.svg" alt="viber" type="image/svg+xml">
+                                                    <img src="assets/img/footer/Vector (6).png" alt="enter icon">
+                                                </picture>
+                                                <span class="text">Консультация в Viber</span>
+                                            </a>
+                                            <a href="#" class="burger-social-link">
+                                                <picture>
+                                                    <source srcset="assets/img/footer/chat.webp" alt="viber" type="image/webp+xml">
+                                                    <img class="chat-base" src="assets/img/footer/chat.png" alt="chat">
+                                                </picture>
+                                                <span class="text">Online-ЧАТ</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal consultation fade" style="width: 100%; background-color: #01000F;" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog consultation">
+                        <div class="modal-content consultation" style="background-color: transparent;">
+                            <div class="modal-header consultation">
+                            </div>
+                            <div class="modal-body consultation top">
+                                <h3>Быстрое оформление заказа</h3>
+                                <ul>
+                                    <li class="modal-tab-active-first active-tab">Шаг 1 - </li>
+                                    <li class="modal-tab-active-second">Шаг 2</li>
+                                </ul>
+                                <div class="tabs__content test1 active">
+                                    <div class="modal-title consultation test1 active" id="staticBackdropLabel">
+                                        <h2>У Вас уже есть аккаунт? Нажмите</h2>
+                                        <button>
+                                            <div>Вход</div>
+                                        </button>
+                                    </div>
+                                    <div class="modal-form-group">
+                                        <div class="field">
+                                            <label for="name">Как к Вам обращаться?</label>
+                                            <input class="modal-form-input" type="text" id="name">
+                                        </div>
+                                        <div class="field">
+                                            <label for="email">Адрес электронной почты</label>
+                                            <input class="modal-form-input" type="text" id="email">
+                                        </div>
+                                        <div class="field">
+                                            <label for="tel">Номер телефона*</label>
+                                            <input class="modal-form-input" type="nubmer" id="tel">
+                                        </div>
+                                        <label class="modal-label-subtitle" for="tel">*номер телефона является паролем</label>
+                                        <div class="modal-farther">
+                                            <button type="button" class="modal-second-step" disabled="disabled" id="staticBackdropBtn" data-bs-target="#staticBackdrop">
+                                                Далее
+                                            <div class="circle">
+                                                <picture>
+                                                    <source aria-disabled srcset="assets/img/header/Vector 94.webp" alt="arrow" loading="lazy" type="image/webp+xml">
+                                                    <img aria-disabled src="assets/img/header/Vector 94.png" alt="arrow" loading="lazy">
+                                                </picture>
+                                            </div>
+                                        </button>
+                                        </div>
+                                        <label class="label-check">
+                                        <input class="label-check-inp" type='checkbox' checked>
+                                        <span></span>
+                                        <div class="check">«Ознакомлен с правилами <a href="#">политики конфиденциальности<a> и согласен об использовании файлов cookie»</div>
+                                    </label>
+                                    </div>
+                                </div>
+                                <div class="tabs__content test2">
+                                    <div class="order-select-group">
+                                        <button class="learning-order-select active-btn">
+                                            Учеба/решение
+                                        </button>
+                                        <button class="teachers-order-select">
+                                            Репетиторы/Преподаватели
+                                        </button>
+                                    </div>
+                                    <div class="learning">
+                                        <div class="tabs__content first-part-of-modal active">
+                                            <span class="learning__subtitle">
+                                                <p class="new-line">В этой группе можно заказать: курсовую, дипломную, магистерскую, реферат, онлайн</p> помощь, решение задач, статьи и другие типы работ...
+                                            </span>
+                                            <pre class="learning__subtitle-formated">
+                                            В этой группе можно заказать: курсовую, дипломную,
+                                                магистерскую, реферат, онлайн помощь, решение
+                                                            задач, статьи и другие типы работ...
+                                            </pre>
+                                            <pre class="learning__subtitle-formated-s">
+                                                В этой группе можно заказать:
+                                            курсовую, дипломную, магистерскую,
+                                            реферат, онлайн помощь, решение
+                                            задач, статьи и другие типы работ...
+                                        </pre>
+                                            <p class="learning__title">Все поля обязательны для заполнения</p>
+                                        </div>
+                                        <div class="tabs__content first-part-of-modal active">
+                                            <form class="learning__form">
+                                                <div class="form-border"></div>
+                                                <fieldset>
+                                                    <label class="label-topic" for="topic" id="label-topic">Напишите тему работы</label>
+                                                    <div class="textarea-wrapper">
+                                                        <textarea maxlength="250" style="resize: vertical;" rows="15" cols="50" id="topic" name="topic" rows="5" placeholder="Максимально напишите что знаете, Например: Процесс национального строительства: сущность и характер...(МАКСИМАЛЬНО 250 символов)&#10;Осталось 250 символов"></textarea>
+                                                        <p><span style="font-size: 13px; margin: 0 0 0 10px;" id="leftChars"></span></p>
+                                                    </div>
+                                                    <label class="label-description" for="description" id="desc-title">Напишите описание работы</label>
+                                                    <div class="textarea-wrapper">
+                                                        <textarea maxlength="1000" wrap="soft" style="resize: vertical;" class="description" style="padding-left: 12px;" id="description" name="description" placeholder="Максимально напишите что знаете, Например: Предмет: Этнополитология, план где-то 4-5 пунктов, шрифт стандартный - Times New Roman 14. уникальность 70-80% на каком плагиате будет проверка если знаете, по стандарту делаем на ЕТХТ... (МАКСИМАЛЬНО 1000 символов&#10;&#10;&#10;&#10;Осталось 1000 символов"></textarea>
+                                                        <p><span style="font-size: 13px; margin: 0 0 0 10px;" id="leftCharsDesc"></span></p>
+                                                    </div>
+                                                    <div class="learning__input-price">
+                                                        <label for="price">На какую стоимость рассчитываете?</label>\
+                                                        <textarea style="overflow: hidden;" class="learning__textarea" name="price" id="" cols="2" placeholder="Например: сумма которую&#10;    Вы готовы потратить"></textarea>
+                                                    </div>
+                                                    <div class="learning__form-group d-flex">
+                                                        <div class="group-select-learning">
+                                                            <select class="learning__select s-teacher" name="work" id="work-learning">
+                                                                <option   value="typeofwork">Выберите тип работы</option>
+                                                                <option value="smthelse">...</option>
+                                                                <option value="smthelse2">...</option>
+                                                            </select>
+                                                            <select class="learning__select" name="subject" id="subject">
+                                                                <option selected value="Выберите предмет работы">Выберите предмет работы</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="group-input-learning">
+                                                            <div class="workload-block">
+                                                                <label class="mt-0" for="workload">Введите объём работы</label>
+                                                                <textarea class="learning__textarea" style="overflow: hidden; padding-left: 20px; padding-top: 17px;" type="text" name="workload" placeholder="Например: 10-12 страниц"></textarea>
+                                                            </div>
+                                                            <div class="completion-block">
+                                                                <label class="mt-0" for="dateofcompletion">Дата выполнения работы</label>
+                                                                <textarea style="overflow: hidden;" class="learning__textarea" name="price" id="" cols="2" placeholder="   Выберите дату на когда &#10;должна быть готова работа"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                                <div class="additional-info">
+                                                    <select class="learning__select" name="plagiat" id="plagiat">
+                                                    <option selected autocomplete="off" value="10085091" style="white-space: -wrap;">Выберите нужный плагиат, если не знаете, выберите ”Не знаю какой”</option>
+                                                    <option  value="Выберите предмет работы">Не знаю какой</option>
+                                                    <option  value="Выберите предмет работы">Text.ru</option>
+                                                    <option  value="Выберите предмет работы">Advego Plagiatus</option>
+                                                    <option  value="Выберите предмет работы">Etxt Антиплагиат(AntiPlagiarism.NET)</option>
+                                                    <option  value="Выберите предмет работы">Unicheck</option>
+                                                    <option  value="Выберите предмет работы">Antiplagiat.ru</option>
+                                                    <option  value="Выберите предмет работы">Антиплагиат ВУЗ</option>
+                                                    <option  value="Выберите предмет работы">Plagiarisma</option>
+                                                    <option  value="Выберите предмет работы">Strikeplagiarism</option>
+                                                </select>
+                                                    <div class="learning__input-wrapper mr-2">
+                                                        <span class="input-wrapper-title">Нужно утверждать план?</span>
+                                                        <div class="learning__input-inner">
+                                                            <label class="learning__label mt-2">
+                                                        <input type="radio" name="radio-button" value="yes" />
+                                                        <p class="approve-agreement" style="color: #000;">Да</p>
+                                                    </label>
+                                                            <label class="learning__label mt-0">
+                                                        <input checked type="radio" name="radio-button" value="no" />
+                                                        <p class="approve-agreement" style="color: #000; margin-top: 5px;">Нет</p>
+                                                    </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="upload-file-desc">
+                                                    <span>Методичку, План, Фото, Аудиозапись...</span>
+                                                    <a class="upload-file-link" href="#">Загрузить файлы</a>
+                                                </div>
+                                                <button class="create-order-btn" type="submit">Создать заказ</button>
+                                            </form>
+                                        </div>
+                                        <section class="tabs__content second-part-of-modal">
+                                            <span class="learning__subtitle teacher">
+                                                В этой группе можно выбрать репетитора по многим предметам: английский, украинский, иностранные языки, подготовка к ЗНО, математика, история и другие предметы 
+                                            </span>
+                                            <p class="learning__title">Все поля обязательны для заполнения</p>
+                                            <form class="learning__form teacher">
+                                                <div class="form-border teacher"></div>
+                                                <fieldset class="fieldset-teacher">
+                                                    <label class="form__label-teacher" id="label-teacher" for="descriptionteacher">Описание работы</label>
+                                                    <div class="textarea-wrapper">
+                                                        <textarea maxlength="1000" style="resize: vertical;" class="description teacher" id="descriptionteacher" name="descriptionteacher" placeholder="Максимально напишите что знаете, Например: Предмет: Этнополитология, план где-то 4-5 пунктов, шрифт стандартный - Times New Roman 14. уникальность 70-80% на каком плагиате будет проверка если знаете, по стандарту делаем на ЕТХТ... (МАКСИМАЛЬНО 1000 символов&#10;&#10;&#10;&#10;Осталось 1000 символов"></textarea>
+                                                        <p><span style="font-size: 13px; margin: 0 0 0 10px; " id="leftCharsTeach"></span></p>
+                                                    </div>
+
+                                                    <div class="learning__form-group teacher d-flex">
+                                                        <div class="learning__form-select-wrap">
+                                                            <select class="learning__select" name="work" id="work">
+                                                                <option selected value="type-of-work ">Выберите предмет</option>
+                                                            </select>
+                                                            <select class="learning__select" name="subject" id="subject-teacher">
+                                                                <option selected value="level ">Выберите уровень подготовки</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="learning-inner-level-p d-flex align-items-center">
+                                                            <div class="price-expectation">
+                                                                <label class="learning__label workload " for="workload ">На какую стоимость рассчитываете?</label>
+                                                                <textarea style="overflow: hidden" class="learning__textarea" name="workload" id="" cols="2" placeholder=" Например: сумма которую&#10; Вы готовы тратить за 1 час "></textarea>
+                                                            </div>
+
+                                                            <div class="date-of-lesson">
+                                                                <label class="learning__label completion " for="dateofcompletion ">Дата, время на когда Вам удобно заниматься?</label>
+                                                                <textarea style="overflow: hidden" class="learning__textarea" name="dateofcompletion" id="" cols="2" placeholder=" Выберите дату на когда&#10; должен быть Онлайн урок "></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                                <div class="upload-file-desc ">
+                                                    <span>Задание, фото, требования...</span>
+                                                    <a class="upload-file-link " href="# ">Загрузить файлы</a>
+                                                </div>
+                                                <button class="create-order-btn" type="submit">Создать заказ</button>
+                                            </form>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+<script src="assets/js/headerMenuToggle.js"></script>
+<script src="assets/js/headerModal.js "></script>
+<script src="assets/js/scrolltop.js"></script>
+<script src="assets/js/help-with-studies.js"></script>
+<script src="assets/js/preload.js"></script>
+
+</html>

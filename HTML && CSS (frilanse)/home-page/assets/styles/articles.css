@@ -1,0 +1,290 @@
+.articles {
+    padding-top: 90px;
+}
+
+.articles__button {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.articles__button button {
+    height: 40px;
+    padding: 0 !important;
+    width: 170px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: relative;
+    background: #010714;
+    border: 1px solid #f6e3ff;
+    box-shadow: -2px -2px 10px rgba(255, 0, 168, 0.5), 2px 2px 10px rgba(255, 0, 168, 0.5), 2px -2px 10px rgba(255, 0, 168, 0.5), -2px 2px 10px rgba(255, 0, 168, 0.5);
+    border-radius: 40px;
+}
+
+.articles__button button .circle {
+    position: relative;
+    right: -7px;
+    width: 64px;
+    height: 64px;
+    background: #b61bff;
+    border-radius: 50%;
+    box-shadow: -2px 2px 10px rgba(255, 0, 168, 0.5), 2px -2px 10px rgba(255, 0, 168, 0.5), -2px -2px 10px rgba(255, 0, 168, 0.5), -2px 2px 10px rgba(255, 0, 168, 0.5);
+}
+
+.articles__button button .circle img {
+    position: absolute;
+    top: 40%;
+    right: 40%;
+}
+
+.articles__button button:after {
+    position: absolute;
+    right: 0;
+    width: 62px;
+    height: 62px;
+    background: #b61bff;
+    box-shadow: -2px 2px 10px rgba(255, 0, 168, 0.5), 2px -2px 10px rgba(255, 0, 168, 0.5), -2px -2px 10px rgba(255, 0, 168, 0.5), -2px 2px 10px rgba(255, 0, 168, 0.5);
+}
+
+.articles__button button:hover {
+    background: #820357;
+}
+
+.articles__button button:active {
+    background: #5c023e;
+}
+
+.articles__button button div {
+    font-family: "M PLUS 1p", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.8em;
+    line-height: 124%;
+    align-items: center;
+    color: #fff;
+    background: 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.articles__wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.articles__body {
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles__title {
+    padding-top: 100px;
+    margin-left: 15%;
+    font-family: "Russo One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8em;
+    line-height: 112.4%;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: rgba(12, 83, 99, 0.65);
+    -webkit-text-stroke: 3px #00d1ff;
+    text-shadow: 3px 13px 31px rgba(0, 209, 255, 0.5), 6px 6px 16px rgba(0, 209, 255, 0.5), -2px -2px 7px rgba(0, 209, 255, 0.5), -2px 2px 7px rgba(0, 209, 255, 0.5);
+}
+
+.card {
+    font-family: "M PLUS 1p", sans-serif;
+    position: relative;
+    width: 20%;
+    margin: 2%;
+    background: 0 0;
+    font-size: 1.4em;
+}
+
+.card-wrapper {
+    overflow: hidden;
+    border-radius: 15px;
+    background: #39104d;
+}
+
+.card-link {
+    color: #fff;
+    font-family: "M PLUS 1p", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: underline;
+    font-size: 1.2em;
+    line-height: 112.4%;
+}
+
+.card-data {
+    position: absolute;
+    background: #b61bff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 -9px 8px 4px #b61bff;
+    color: #fff;
+    bottom: -7%;
+    max-width: 100px;
+    width: 100%;
+    text-align: center;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-bottom: 5px;
+}
+
+.card-body {
+    padding-bottom: 20px;
+    background: #39104d;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card-text,
+.card-title {
+    font-family: "M PLUS 1p", sans-serif;
+    font-style: normal;
+    line-height: 112.4%;
+    color: #fff;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+/* Media */
+
+@media (max-width: 768px) {
+    .articles__title {
+        margin: 0 !important;
+        text-align: center;
+    }
+    .articles__body {
+        justify-content: center !important;
+    }
+    .articles .card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 550px) {}
+
+@media (max-width: 375px) {
+    .articles__body {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card-data {
+        bottom: unset;
+    }
+    .articles .card {
+        width: 100%;
+        margin: 0 10px !important;
+    }
+    .slick-list {
+        height: 360px;
+    }
+    ul.slick-dots {
+        margin-right: 31px;
+        bottom: -121px;
+    }
+    .slick-prev {
+        position: absolute;
+        bottom: 11.5%;
+        z-index: 9;
+        background: transparent;
+        border: unset;
+        font-size: 0;
+    }
+    .slick-prev::after {
+        position: absolute;
+        content: "";
+        background-image: url("../img/articles/arrow-left.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        top: 60px;
+        width: 29px;
+        height: 63px;
+        left: 64px;
+    }
+    .slick-next {
+        position: absolute;
+        top: 88%;
+        right: 0%;
+        background: transparent;
+        border: unset;
+        font-size: 0;
+    }
+    .slick-next::after {
+        position: absolute;
+        content: "";
+        background-image: url("../img/articles/arrow-left.png");
+        transform: rotate(180deg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 29px;
+        height: 63px;
+        right: 50px;
+        top: 59px;
+    }
+    .slick-initialized .slick-slide {
+        background: transparent !important;
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: 20%;
+        top: 90%;
+    }
+    .slick-dots .slick-active {
+        background: rgba(255, 205, 238, 1) !important;
+        border-radius: 50%;
+        height: 15px !important;
+        width: 15px !important;
+    }
+    .slick-active button {
+        background: rgba(255, 205, 238, 1);
+        border: unset;
+        font-size: 0;
+        border-radius: 50%;
+    }
+    [role="presentation"] {
+        margin-right: 5px;
+        width: 10px;
+        height: 10px;
+        background: #570899;
+        border-radius: 50%;
+    }
+    [role="tab"] {
+        background: #570899;
+        border-radius: 50%;
+        border: unset;
+        font-size: 0;
+    }
+    .articles__button button {
+        display: none;
+    }
+}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    .articles__title {
+        color: rgba(0, 209, 255, 0.8)
+    }
+}
